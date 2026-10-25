@@ -1,0 +1,44 @@
+[
+  {
+    "wires": 1,
+    "full_control_gates": 1,
+    "coordinate_deletions": 0,
+    "status": "ok"
+  },
+  {
+    "wires": 2,
+    "full_control_gates": 4,
+    "coordinate_deletions": 1,
+    "status": "ok"
+  },
+  {
+    "wires": 3,
+    "full_control_gates": 12,
+    "coordinate_deletions": 8,
+    "status": "ok"
+  },
+  {
+    "wires": 4,
+    "full_control_gates": 32,
+    "coordinate_deletions": 44,
+    "status": "ok"
+  },
+  {
+    "wires": 5,
+    "full_control_gates": 80,
+    "coordinate_deletions": 208,
+    "status": "ok"
+  },
+  {
+    "wires": 6,
+    "full_control_gates": 192,
+    "coordinate_deletions": 912,
+    "status": "ok"
+  },
+  {
+    "wires": 7,
+    "full_control_gates": 448,
+    "coordinate_deletions": 3840,
+    "status": "ok"
+  }
+]

@@ -1,0 +1,11 @@
+id,family,wires,gates,benchmark_file,source_url,selection_reason
+ex-1_166,ex-1,3,4,data/public_3to6/n3/ex-1_166.real,https://revlib.org/doc/real/ex-1_166.real,公开 3 线路综合基准，4 门。
+ham3_102,ham3,3,5,data/public_3to6/n3/ham3_102.real,https://revlib.org/doc/real/ham3_102.real,ham3 的纯 MCT 实现，5 门。
+miller_11,miller,3,5,data/public_3to6/n3/miller_11.real,https://revlib.org/doc/real/miller_11.real,Miller 基准，5 门。
+3_17_13,3,3,6,data/public_3to6/n3/3_17_13.real,https://revlib.org/doc/real/3_17_13.real,3_17 综合基准，6 门。
+mod10_171,mod10_171.real,4,10,data/public_3to6/n4/mod10_171.real,https://revlib.org/doc/real/mod10_171.real,模十功能，4 线路较短实现。
+hwb4_49,HWB,4,17,data/public_3to6/n4/hwb4_49.real,https://revlib.org/doc/real/hwb4_49.real,HWB 功能，4 线路原池中门数最多的实现。
+nth_prime5_inc_25_103,nth_prime_inc,5,25,data/public_3to6/n5/nth_prime5_inc_25_103.real,https://reversiblebenchmarks.github.io/nth_prime5_inc_25_103.tfc,nth-prime 功能，5 线路中等门数实现。
+hwb5_53,HWB,5,55,data/public_3to6/n5/hwb5_53.real,https://revlib.org/doc/real/hwb5_53.real,HWB 功能，5 线路原池中门数最多的实现。
+mod5adder-15,mod5adder-15.tfc,6,15,data/public_3to6/n6/mod5adder-15.real,https://reversiblebenchmarks.github.io/mod5adder-15.tfc,用户选择优先完整结果；可完成 mod5adder 实现中的较短电路。
+mod5adder-17-81,mod5adder-17-81.tfc,6,17,data/public_3to6/n6/mod5adder-17-81.real,https://reversiblebenchmarks.github.io/mod5adder-17-81.tfc,用户选择优先完整结果；较长 mod5adder 实现，控制/目标布局不同。

@@ -1,0 +1,80 @@
+[
+  {
+    "wires": 4,
+    "total": 30,
+    "paired_ok": 30,
+    "fl2025_status": {
+      "ok": 30
+    },
+    "fxl2026_status": {
+      "ok": 30
+    },
+    "rule_count_mean_ratio": 0.30237546564301665,
+    "fl2025_rule_count_mean": 278996.2,
+    "fxl2026_rule_count_mean": 1071006.9333333333,
+    "rule_count_ratio_of_means": 0.26049896720245325,
+    "time_ms_mean_ratio": 0.32201089342929134,
+    "fl2025_time_ms_mean": 4.361238966666667,
+    "fxl2026_time_ms_mean": 16.429804033333333,
+    "time_ms_ratio_of_means": 0.26544680373657775
+  },
+  {
+    "wires": 5,
+    "total": 11,
+    "paired_ok": 11,
+    "fl2025_status": {
+      "ok": 11
+    },
+    "fxl2026_status": {
+      "ok": 11
+    },
+    "rule_count_mean_ratio": 0.06199356433669582,
+    "fl2025_rule_count_mean": 11570660.272727273,
+    "fxl2026_rule_count_mean": 210545251.63636363,
+    "rule_count_ratio_of_means": 0.05495569329063361,
+    "time_ms_mean_ratio": 0.034101607032421925,
+    "fl2025_time_ms_mean": 42.061223454545456,
+    "fxl2026_time_ms_mean": 1428.9237768181818,
+    "time_ms_ratio_of_means": 0.029435596311655036
+  },
+  {
+    "wires": 6,
+    "total": 11,
+    "paired_ok": 3,
+    "fl2025_status": {
+      "ok": 11
+    },
+    "fxl2026_status": {
+      "ok": 3,
+      "max_word": 8
+    },
+    "rule_count_mean_ratio": 0.06116335737378621,
+    "fl2025_rule_count_mean": 14388868.333333334,
+    "fxl2026_rule_count_mean": 925856366.3333334,
+    "rule_count_ratio_of_means": 0.015541145318595727,
+    "time_ms_mean_ratio": 0.04454712814767645,
+    "fl2025_time_ms_mean": 42.652833333333334,
+    "fxl2026_time_ms_mean": 3794.2454303333334,
+    "time_ms_ratio_of_means": 0.011241453436918597
+  },
+  {
+    "wires": 7,
+    "total": 11,
+    "paired_ok": 0,
+    "fl2025_status": {
+      "ok": 2,
+      "max_work": 9
+    },
+    "fxl2026_status": {
+      "contextual peak word": 11
+    },
+    "rule_count_mean_ratio": null,
+    "fl2025_rule_count_mean": null,
+    "fxl2026_rule_count_mean": null,
+    "rule_count_ratio_of_means": null,
+    "time_ms_mean_ratio": null,
+    "fl2025_time_ms_mean": null,
+    "fxl2026_time_ms_mean": null,
+    "time_ms_ratio_of_means": null
+  }
+]

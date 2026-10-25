@@ -1,0 +1,26 @@
+# size = 15 cost = 91
+# Format conversion only; original: https://reversiblebenchmarks.github.io/mod5adder-15.tfc
+.version 2.0
+.numvars 6
+.variables a b c d e f
+.inputs a b c d e f
+.outputs a b c d e f
+.constants ------
+.garbage ------
+.begin
+t1 b
+t3 a d b
+t1 a
+t4 a b f c
+t1 c
+t3 c d a
+t4 a b d c
+t3 c e b
+t4 a b e c
+t4 b c e a
+t3 c f a
+t1 a
+t1 b
+t1 c
+t3 a f b
+.end

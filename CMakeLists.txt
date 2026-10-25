@@ -1,0 +1,23 @@
+cmake_minimum_required(VERSION 3.16)
+project(reversible_completeness LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+add_library(rv STATIC src/core.cpp src/io.cpp src/compiler.cpp src/routing.cpp
+    src/path.cpp src/indexed_path.cpp src/fl2025.cpp src/fxl2026.cpp src/nf.cpp src/dc.cpp
+    src/experiments.cpp src/benchmark.cpp)
+target_include_directories(rv PUBLIC include)
+if(MSVC)
+  target_compile_options(rv PRIVATE /W4)
+else()
+  target_compile_options(rv PRIVATE -Wall -Wextra -Wpedantic)
+endif()
+foreach(app bench_normalize bench_equivalence generate_data)
+  add_executable(${app} apps/${app}.cpp)
+  target_link_libraries(${app} PRIVATE rv)
+endforeach()
+foreach(check verify_binary verify_sparse_path)
+  add_executable(${check} EXCLUDE_FROM_ALL tests/${check}.cpp)
+  target_link_libraries(${check} PRIVATE rv)
+endforeach()
+# Deliberately no automatic benchmarks, generation, or test execution.

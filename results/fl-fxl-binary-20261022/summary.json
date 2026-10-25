@@ -1,0 +1,86 @@
+[
+  {
+    "wires": 4,
+    "circuits": 30,
+    "attempted": 30,
+    "paired_ok": 30,
+    "fl2025_status": {
+      "ok": 30
+    },
+    "fxl2026_status": {
+      "ok": 30
+    },
+    "rule_count_mean_ratio": 0.30237546564301665,
+    "fl2025_rule_count_mean": 278996.2,
+    "fxl2026_rule_count_mean": 1071006.9333333333,
+    "rule_count_ratio_of_means": 0.26049896720245325,
+    "time_ms_mean_ratio": 0.1274756908838804,
+    "fl2025_time_ms_mean": 10.721526366666668,
+    "fxl2026_time_ms_mean": 181.62005693333333,
+    "time_ms_ratio_of_means": 0.059032722198750234
+  },
+  {
+    "wires": 5,
+    "circuits": 11,
+    "attempted": 11,
+    "paired_ok": 1,
+    "fl2025_status": {
+      "ok": 11
+    },
+    "fxl2026_status": {
+      "seconds": 10,
+      "ok": 1
+    },
+    "rule_count_mean_ratio": 0.10847229696214358,
+    "fl2025_rule_count_mean": 3607160.0,
+    "fxl2026_rule_count_mean": 33254205.0,
+    "rule_count_ratio_of_means": 0.10847229696214358,
+    "time_ms_mean_ratio": 0.005203286225631965,
+    "fl2025_time_ms_mean": 83.174583,
+    "fxl2026_time_ms_mean": 15985.010125,
+    "time_ms_ratio_of_means": 0.005203286225631965
+  },
+  {
+    "wires": 6,
+    "circuits": 11,
+    "attempted": 11,
+    "paired_ok": 1,
+    "fl2025_status": {
+      "ok": 11
+    },
+    "fxl2026_status": {
+      "ok": 1,
+      "max_word": 9,
+      "seconds": 1
+    },
+    "rule_count_mean_ratio": 0.13478462106066186,
+    "fl2025_rule_count_mean": 5382719.0,
+    "fxl2026_rule_count_mean": 39935706.0,
+    "rule_count_ratio_of_means": 0.13478462106066186,
+    "time_ms_mean_ratio": 0.006266048526867181,
+    "fl2025_time_ms_mean": 129.255666,
+    "fxl2026_time_ms_mean": 20627.938875,
+    "time_ms_ratio_of_means": 0.006266048526867181
+  },
+  {
+    "wires": 7,
+    "circuits": 11,
+    "attempted": 11,
+    "paired_ok": 0,
+    "fl2025_status": {
+      "max_work": 10,
+      "seconds": 1
+    },
+    "fxl2026_status": {
+      "max_word": 11
+    },
+    "rule_count_mean_ratio": null,
+    "fl2025_rule_count_mean": null,
+    "fxl2026_rule_count_mean": null,
+    "rule_count_ratio_of_means": null,
+    "time_ms_mean_ratio": null,
+    "fl2025_time_ms_mean": null,
+    "fxl2026_time_ms_mean": null,
+    "time_ms_ratio_of_means": null
+  }
+]

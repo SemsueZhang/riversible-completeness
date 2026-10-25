@@ -1,0 +1,57 @@
+START 1/28 n=6 mod5adder_128 fxl2026
+DONE 1/28 n=6 mod5adder_128 fxl2026: resource_limit 51813.533542 ms fxl2026 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n6/mod5adder_128.real: resource_limit: max_work
+START 2/28 n=6 mod5adder_129 fxl2026
+DONE 2/28 n=6 mod5adder_129 fxl2026: resource_limit 52270.675000 ms fxl2026 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n6/mod5adder_129.real: resource_limit: max_work
+START 3/28 n=6 mod5adder_127 fxl2026
+DONE 3/28 n=6 mod5adder_127 fxl2026: resource_limit 52039.526916 ms fxl2026 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n6/mod5adder_127.real: resource_limit: max_work
+START 4/28 n=6 hwb6_58 fxl2026
+DONE 4/28 n=6 hwb6_58 fxl2026: resource_limit 95337.808542 ms fxl2026 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n6/hwb6_58.real: resource_limit: max_work
+START 5/28 n=6 hwb6_47_107 fxl2026
+DONE 5/28 n=6 hwb6_47_107 fxl2026: resource_limit 102022.406542 ms fxl2026 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n6/hwb6_47_107.real: resource_limit: max_work
+START 6/28 n=6 nth_prime6_inc_55_667 fxl2026
+DONE 6/28 n=6 nth_prime6_inc_55_667 fxl2026: resource_limit 97975.660500 ms fxl2026 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n6/nth_prime6_inc_55_667.real: resource_limit: max_work
+START 7/28 n=6 nth_prime6_inc-57-485 fxl2026
+DONE 7/28 n=6 nth_prime6_inc-57-485 fxl2026: resource_limit 50901.513292 ms fxl2026 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n6/nth_prime6_inc-57-485.real: resource_limit: max_work
+START 8/28 n=6 hwb6_56 fxl2026
+DONE 8/28 n=6 hwb6_56 fxl2026: resource_limit 82447.194917 ms fxl2026 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n6/hwb6_56.real: resource_limit: max_work
+START 9/28 n=7 ham7_105 fxl2026
+DONE 9/28 n=7 ham7_105 fxl2026: resource_limit 134479.412042 ms fxl2026 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/ham7_105.real: resource_limit: max_work
+START 10/28 n=7 ham7_104 fxl2026
+DONE 10/28 n=7 ham7_104 fxl2026: resource_limit 156447.950708 ms fxl2026 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/ham7_104.real: resource_limit: max_work
+START 11/28 n=7 ham7_104 fl2025
+DONE 11/28 n=7 ham7_104 fl2025: resource_limit 97735.596083 ms fl2025 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/ham7_104.real: resource_limit: max_work
+START 12/28 n=7 ham7_106 fxl2026
+DONE 12/28 n=7 ham7_106 fxl2026: resource_limit 130316.696958 ms fxl2026 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/ham7_106.real: resource_limit: max_work
+START 13/28 n=7 hwb7_61 fxl2026
+DONE 13/28 n=7 hwb7_61 fxl2026: resource_limit 300514.331417 ms fxl2026 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/hwb7_61.real: resource_limit: seconds
+START 14/28 n=7 hwb7_61 fl2025
+DONE 14/28 n=7 hwb7_61 fl2025: resource_limit 38478.159125 ms fl2025 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/hwb7_61.real: resource_limit: max_work
+START 15/28 n=7 hwb7_59 fl2025
+DONE 15/28 n=7 hwb7_59 fl2025: resource_limit 53807.653542 ms fl2025 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/hwb7_59.real: resource_limit: max_work
+START 16/28 n=7 hwb7_59 fxl2026
+DONE 16/28 n=7 hwb7_59 fxl2026: resource_limit 300232.447834 ms fxl2026 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/hwb7_59.real: resource_limit: seconds
+START 17/28 n=7 hwb7_62 fxl2026
+DONE 17/28 n=7 hwb7_62 fxl2026: resource_limit 300334.600791 ms fxl2026 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/hwb7_62.real: resource_limit: seconds
+START 18/28 n=7 hwb7_62 fl2025
+DONE 18/28 n=7 hwb7_62 fl2025: resource_limit 45469.045125 ms fl2025 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/hwb7_62.real: resource_limit: max_work
+START 19/28 n=7 nth_prime07_inc-n7-gc440-qc10989 fl2025
+DONE 19/28 n=7 nth_prime07_inc-n7-gc440-qc10989 fl2025: resource_limit 65212.028625 ms fl2025 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/nth_prime07_inc-n7-gc440-qc10989.real: resource_limit: max_work
+START 20/28 n=7 nth_prime07_inc-n7-gc440-qc10989 fxl2026
+DONE 20/28 n=7 nth_prime07_inc-n7-gc440-qc10989 fxl2026: resource_limit 54078.881791 ms fxl2026 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/nth_prime07_inc-n7-gc440-qc10989.real: resource_limit: max_work
+START 21/28 n=7 nth_prime07_inc-n7-gc489-qc10898 fxl2026
+DONE 21/28 n=7 nth_prime07_inc-n7-gc489-qc10898 fxl2026: resource_limit 61434.380583 ms fxl2026 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/nth_prime07_inc-n7-gc489-qc10898.real: resource_limit: max_work
+START 22/28 n=7 nth_prime07_inc-n7-gc489-qc10898 fl2025
+Traceback (most recent call last):
+  File "/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/results/fl-fxl-word100m-20261022/run.py", line 20, in <module>
+    r=subprocess.run(cmd,cwd=root,text=True,capture_output=True,timeout=330)
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 557, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 1221, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 2153, in _communicate
+    ready = selector.select(timeout)
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/selectors.py", line 398, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt

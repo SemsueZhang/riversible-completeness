@@ -1,0 +1,2452 @@
+{
+  "date": "2026-10-22",
+  "deduplication": "wire-indexed ordered gate sequence; controls sorted; polarity retained; not functional equivalence",
+  "circuits": [
+    {
+      "id": "aj-e11_168",
+      "name": "aj-e11_168.real",
+      "family": "aj-e11_168.real",
+      "wires": 4,
+      "gates": 10,
+      "gate_types": {
+        "t2": 6,
+        "t3": 2,
+        "t4": 1,
+        "t1": 1
+      },
+      "category": "ready_real",
+      "sequence_sha256": "ba222ab0b9c8a4524bd1c825db98bc7bc1bb16b9bc17e69bfdd8e8959222f14b",
+      "sources": [
+        {
+          "url": "https://revlib.org/doc/real/aj-e11_168.real",
+          "sha256": "336f0dfd4a63b3b5150f3ee80d486cba75cc880945992adbd4a9b9002b4a92ed",
+          "metadata": {
+            ".version": "1.0",
+            ".numvars": "4",
+            ".variables": "a b c d",
+            ".inputs": "a b c d",
+            ".outputs": "a b c d",
+            ".constants": "----",
+            ".garbage": "----"
+          },
+          "git_blob_sha1": null,
+          "category": "ready_real",
+          "source_filename": "aj-e11_168.real",
+          "file": "data/public_4to7/n4/aj-e11_168.real"
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": false,
+      "benchmark_file": "data/public_4to7/n4/aj-e11_168.real",
+      "benchmark_sha256": "336f0dfd4a63b3b5150f3ee80d486cba75cc880945992adbd4a9b9002b4a92ed"
+    },
+    {
+      "id": "mod10_171",
+      "name": "mod10_171.real",
+      "family": "mod10_171.real",
+      "wires": 4,
+      "gates": 10,
+      "gate_types": {
+        "t2": 3,
+        "t4": 3,
+        "t3": 3,
+        "t1": 1
+      },
+      "category": "ready_real",
+      "sequence_sha256": "528262ab318cf57ca039e44344c377f5ef2efeea228f01613037439557c1f7d2",
+      "sources": [
+        {
+          "url": "https://revlib.org/doc/real/mod10_171.real",
+          "sha256": "58e5243002f64d1edea8c4747e4c33aa2a729aa5b42e1390b4fbe5269fc190b3",
+          "metadata": {
+            ".version": "1.0",
+            ".numvars": "4",
+            ".variables": "D C B A",
+            ".inputs": "D C B A",
+            ".outputs": "D C B A",
+            ".constants": "----",
+            ".garbage": "----"
+          },
+          "git_blob_sha1": null,
+          "category": "ready_real",
+          "source_filename": "mod10_171.real",
+          "file": "data/public_4to7/n4/mod10_171.real"
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": false,
+      "benchmark_file": "data/public_4to7/n4/mod10_171.real",
+      "benchmark_sha256": "58e5243002f64d1edea8c4747e4c33aa2a729aa5b42e1390b4fbe5269fc190b3"
+    },
+    {
+      "id": "hwb4-11-21",
+      "name": "hwb4-11-21.tfc",
+      "family": "HWB",
+      "wires": 4,
+      "gates": 11,
+      "gate_types": {
+        "t2": 8,
+        "t3": 3
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "295791ac60756b174d50113030b0411d150295e9e51b1c060ef4c0c8436528ce",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/hwb4-11-21.tfc",
+          "sha256": "9886f6c04213e3e3e3a93e834845cfe96c6cd63c192dbb8b654555698c4bd03d",
+          "metadata": {
+            ".v": "a,b,c,d",
+            ".i": "a,b,c,d",
+            ".o": "a,b,c,d"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "hwb4-11-21.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": true,
+      "benchmark_file": "data/public_4to7/n4/hwb4-11-21.real",
+      "converted_sha256": "5c79ad3f3aba89a1f1fe472246b9dfda151914cf365b9bbd385a6c5e32c41e42",
+      "benchmark_sha256": "5c79ad3f3aba89a1f1fe472246b9dfda151914cf365b9bbd385a6c5e32c41e42"
+    },
+    {
+      "id": "hwb4_52",
+      "name": "hwb4_52.real",
+      "family": "HWB",
+      "wires": 4,
+      "gates": 11,
+      "gate_types": {
+        "t2": 8,
+        "t3": 3
+      },
+      "category": "ready_real",
+      "sequence_sha256": "71fcb41f0855c59dd3631ccaca0cbaccc7f70f6a9e45e3d7a8f294c7ebf62ae3",
+      "sources": [
+        {
+          "url": "https://revlib.org/doc/real/hwb4_52.real",
+          "sha256": "1ca79df33e6d22b34f9b3f9b0cfb807043763c4f20d2dab5570c6d717e55f9c2",
+          "metadata": {
+            ".version": "1.0",
+            ".numvars": "4",
+            ".variables": "a b c d",
+            ".inputs": "a b c d",
+            ".outputs": "a b c d",
+            ".constants": "----",
+            ".garbage": "----"
+          },
+          "git_blob_sha1": null,
+          "category": "ready_real",
+          "source_filename": "hwb4_52.real",
+          "file": "data/public_4to7/n4/hwb4_52.real"
+        },
+        {
+          "url": "https://reversiblebenchmarks.github.io/hwb4-11-23.tfc",
+          "sha256": "af00617b3189e634f9d98015481b92f1a58e05c2924a0281a29ee39318bff1e6",
+          "metadata": {
+            ".v": "a,b,c,d",
+            ".i": "a,b,c,d",
+            ".o": "a,b,c,d"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "hwb4-11-23.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": false,
+      "benchmark_file": "data/public_4to7/n4/hwb4_52.real",
+      "benchmark_sha256": "1ca79df33e6d22b34f9b3f9b0cfb807043763c4f20d2dab5570c6d717e55f9c2"
+    },
+    {
+      "id": "mspk_nth_primes4_11",
+      "name": "mspk_nth_primes4_11.tfc",
+      "family": "mspk_nth_primes4_11.tfc",
+      "wires": 4,
+      "gates": 11,
+      "gate_types": {
+        "t3": 5,
+        "t2": 4,
+        "t4": 2
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "52017485a5088790f18c1fc4a2ac41122b2cbadbce5519a039f2718d815962c3",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/mspk_nth_primes4_11.tfc",
+          "sha256": "b1735dc16800b88616b5335ea463345687b7ad23dc15877d76058e15aa66169f",
+          "metadata": {
+            ".v": "a,b,c,d",
+            ".i": "a,b,c,d",
+            ".o": "a,b,c,d"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "mspk_nth_primes4_11.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": true,
+      "benchmark_file": "data/public_4to7/n4/mspk_nth_primes4_11.real",
+      "converted_sha256": "cc6ba661c66d2d6f8057642908ab0be4d2650bfe21a3a3fbb3164e280b6d51a8",
+      "benchmark_sha256": "cc6ba661c66d2d6f8057642908ab0be4d2650bfe21a3a3fbb3164e280b6d51a8"
+    },
+    {
+      "id": "nth_prime4_inc_d2",
+      "name": "nth_prime4_inc_d2.tfc",
+      "family": "nth_prime_inc",
+      "wires": 4,
+      "gates": 11,
+      "gate_types": {
+        "t3": 5,
+        "t2": 4,
+        "t4": 2
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "092a78bddc345dd012eccaa68fc61828ca5f21579e684f5a5c5b44d8a697580a",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/nth_prime4_inc_d2.tfc",
+          "sha256": "9fb3e5f78c35f4935e769669c648ed54e90347f0aabf433b00d86ff94d4844dd",
+          "metadata": {
+            ".v": "a,b,c,d",
+            ".i": "a,b,c,d",
+            ".o": "a,b,c,d"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "nth_prime4_inc_d2.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": true,
+      "benchmark_file": "data/public_4to7/n4/nth_prime4_inc_d2.real",
+      "converted_sha256": "1402edec794098e2507ac0f4011e8fb89deec50e40dc537c0308ace2b8f97349",
+      "benchmark_sha256": "1402edec794098e2507ac0f4011e8fb89deec50e40dc537c0308ace2b8f97349"
+    },
+    {
+      "id": "4_49_17",
+      "name": "4_49_17.real",
+      "family": "4_49_17.real",
+      "wires": 4,
+      "gates": 12,
+      "gate_types": {
+        "t2": 5,
+        "t1": 2,
+        "t3": 5
+      },
+      "category": "ready_real",
+      "sequence_sha256": "0f85c1e240a5da32d331f072b0b7941f87154f2bc603997bf7d1cdf20cf29134",
+      "sources": [
+        {
+          "url": "https://revlib.org/doc/real/4_49_17.real",
+          "sha256": "6a97df1c7dd2ef5b2313876d6a29639ffe7e8da0ac81124c6f697cff48402951",
+          "metadata": {
+            ".version": "1.0",
+            ".numvars": "4",
+            ".variables": "a b c d",
+            ".inputs": "a b c d",
+            ".outputs": "a b c d",
+            ".constants": "----",
+            ".garbage": "----"
+          },
+          "git_blob_sha1": null,
+          "category": "ready_real",
+          "source_filename": "4_49_17.real",
+          "file": "data/public_4to7/n4/4_49_17.real"
+        },
+        {
+          "url": "https://reversiblebenchmarks.github.io/4_49-12-32.tfc",
+          "sha256": "4e6bc9a5501751c1a7c4c540aa38e2582757b36dfb5d5d1b475123aa60299157",
+          "metadata": {
+            ".v": "a,b,c,d",
+            ".i": "a,b,c,d",
+            ".o": "a,b,c,d"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "4_49-12-32.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": false,
+      "benchmark_file": "data/public_4to7/n4/4_49_17.real",
+      "benchmark_sha256": "6a97df1c7dd2ef5b2313876d6a29639ffe7e8da0ac81124c6f697cff48402951"
+    },
+    {
+      "id": "mspk_4_49_12",
+      "name": "mspk_4_49_12.tfc",
+      "family": "mspk_4_49_12.tfc",
+      "wires": 4,
+      "gates": 12,
+      "gate_types": {
+        "t2": 5,
+        "t1": 2,
+        "t3": 5
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "7234b660c7f2ff89cf78bffe700f629ab9fced7a69ed414a7f9e9390eb4dad1c",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/mspk_4_49_12.tfc",
+          "sha256": "0dde45bb1097ceab47894b4f724bfbb901641365e841a20b89daa2b81877aa3f",
+          "metadata": {
+            ".v": "a,b,c,d",
+            ".i": "a,b,c,d",
+            ".o": "a,b,c,d"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "mspk_4_49_12.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": true,
+      "benchmark_file": "data/public_4to7/n4/mspk_4_49_12.real",
+      "converted_sha256": "e4352cbb5802c75bb5d844abb63251df5845b5714a6850f148d2f2b526f7e6ed",
+      "benchmark_sha256": "e4352cbb5802c75bb5d844abb63251df5845b5714a6850f148d2f2b526f7e6ed"
+    },
+    {
+      "id": "mspk_hwb4_12",
+      "name": "mspk_hwb4_12.tfc",
+      "family": "mspk_hwb4_12.tfc",
+      "wires": 4,
+      "gates": 12,
+      "gate_types": {
+        "t2": 9,
+        "t3": 3
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "5f5893ae622ae9b144265eee817604cf5bce0ffbee00e99a154b04730098ffae",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/mspk_hwb4_12.tfc",
+          "sha256": "1debba1e4e4b76465cacc9f66fe3634a2d4718cde0a960e0b293cfaf4fc9a00f",
+          "metadata": {
+            ".v": "a,b,c,d",
+            ".i": "a,b,c,d",
+            ".o": "a,b,c,d"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "mspk_hwb4_12.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": true,
+      "benchmark_file": "data/public_4to7/n4/mspk_hwb4_12.real",
+      "converted_sha256": "67577d88a78aacfc3698ee07fb9bb5d53a0b0fd2da29254e065d156cf379c33c",
+      "benchmark_sha256": "67577d88a78aacfc3698ee07fb9bb5d53a0b0fd2da29254e065d156cf379c33c"
+    },
+    {
+      "id": "mspk_nth_primes4_12",
+      "name": "mspk_nth_primes4_12.tfc",
+      "family": "mspk_nth_primes4_12.tfc",
+      "wires": 4,
+      "gates": 12,
+      "gate_types": {
+        "t2": 6,
+        "t3": 6
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "d0b7b3f28f2b36e10667b768c4861179e239f491fc36974d831e3fe88cfa6e54",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/mspk_nth_primes4_12.tfc",
+          "sha256": "0c6324010303362a10296a9fc13a89efda236494bef799632a41795ffe1ed1c7",
+          "metadata": {
+            ".v": "a,b,c,d",
+            ".i": "a,b,c,d",
+            ".o": "a,b,c,d"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "mspk_nth_primes4_12.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": true,
+      "benchmark_file": "data/public_4to7/n4/mspk_nth_primes4_12.real",
+      "converted_sha256": "f19e9634891a2cbe47baef3d01a8b5215ffc1c10dc170942299bb465a88d4886",
+      "benchmark_sha256": "f19e9634891a2cbe47baef3d01a8b5215ffc1c10dc170942299bb465a88d4886"
+    },
+    {
+      "id": "nth_prime4_inc_d1",
+      "name": "nth_prime4_inc_d1.tfc",
+      "family": "nth_prime_inc",
+      "wires": 4,
+      "gates": 12,
+      "gate_types": {
+        "t3": 6,
+        "t4": 2,
+        "t2": 4
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "7ccab6784b4b508a5fd5650c112d4c9127acd584b53f45567e4699262aec6007",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/nth_prime4_inc_d1.tfc",
+          "sha256": "2ea7022f17daabe22c43d67386451cd5f8e5bac9dc11eab8b337f802e951263f",
+          "metadata": {
+            ".v": "a,b,c,d",
+            ".i": "a,b,c,d",
+            ".o": "a,b,c,d"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "nth_prime4_inc_d1.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": true,
+      "benchmark_file": "data/public_4to7/n4/nth_prime4_inc_d1.real",
+      "converted_sha256": "3a466ce345329f7f73f5516d4e47b279817ed2d5562be583dc29d3ad4d4aac0c",
+      "benchmark_sha256": "3a466ce345329f7f73f5516d4e47b279817ed2d5562be583dc29d3ad4d4aac0c"
+    },
+    {
+      "id": "aj-e11_165",
+      "name": "aj-e11_165.real",
+      "family": "aj-e11_165.real",
+      "wires": 4,
+      "gates": 13,
+      "gate_types": {
+        "t2": 6,
+        "t3": 5,
+        "t4": 1,
+        "t1": 1
+      },
+      "category": "ready_real",
+      "sequence_sha256": "e24e636c40e004677a742c1449d37ef37a20d016758f4156c51fe11c087311ac",
+      "sources": [
+        {
+          "url": "https://revlib.org/doc/real/aj-e11_165.real",
+          "sha256": "e9b45e3e4a0314ca9f1a50aa2b9fb9e185ed8d8958f8f0572f5b3c5dbd59a516",
+          "metadata": {
+            ".version": "1.0",
+            ".numvars": "4",
+            ".variables": "a b c d",
+            ".inputs": "a b c d",
+            ".outputs": "a b c d"
+          },
+          "git_blob_sha1": null,
+          "category": "ready_real",
+          "source_filename": "aj-e11_165.real",
+          "file": "data/public_4to7/n4/aj-e11_165.real"
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": false,
+      "benchmark_file": "data/public_4to7/n4/aj-e11_165.real",
+      "benchmark_sha256": "e9b45e3e4a0314ca9f1a50aa2b9fb9e185ed8d8958f8f0572f5b3c5dbd59a516"
+    },
+    {
+      "id": "mspk_4_49_13",
+      "name": "mspk_4_49_13.tfc",
+      "family": "mspk_4_49_13.tfc",
+      "wires": 4,
+      "gates": 13,
+      "gate_types": {
+        "t2": 7,
+        "t1": 1,
+        "t3": 5
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "823b74f995644e9876e4ac769a02d2e6e09bae485827e8758f21d06ad7172ba4",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/mspk_4_49_13.tfc",
+          "sha256": "b55851369a0080221024d5c9281bca4ed8800d340b69569f7cb92e65059983d7",
+          "metadata": {
+            ".v": "a,b,c,d",
+            ".i": "a,b,c,d",
+            ".o": "a,b,c,d"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "mspk_4_49_13.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": true,
+      "benchmark_file": "data/public_4to7/n4/mspk_4_49_13.real",
+      "converted_sha256": "9281b983993f9d0831ce455ec096e8c7a3a0794ebc6930516bd7985402b15221",
+      "benchmark_sha256": "9281b983993f9d0831ce455ec096e8c7a3a0794ebc6930516bd7985402b15221"
+    },
+    {
+      "id": "mspk_hwb4_13",
+      "name": "mspk_hwb4_13.tfc",
+      "family": "mspk_hwb4_13.tfc",
+      "wires": 4,
+      "gates": 13,
+      "gate_types": {
+        "t2": 10,
+        "t3": 3
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "e61d3d463de726d02c39b3fdaffdd0955ea69a6fb4cc136f1056bec24a9360c0",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/mspk_hwb4_13.tfc",
+          "sha256": "84a62bfc57d54a84e4502f57456bb4202f55d507ae6572111f419b622287273b",
+          "metadata": {
+            ".v": "a,b,c,d",
+            ".i": "a,b,c,d",
+            ".o": "a,b,c,d"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "mspk_hwb4_13.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": true,
+      "benchmark_file": "data/public_4to7/n4/mspk_hwb4_13.real",
+      "converted_sha256": "3aff326da7da2f58c920ba316468c977cbe458ffc28ac6f5fcb03e52792fa37a",
+      "benchmark_sha256": "3aff326da7da2f58c920ba316468c977cbe458ffc28ac6f5fcb03e52792fa37a"
+    },
+    {
+      "id": "mspk_nth_primes4_13",
+      "name": "mspk_nth_primes4_13.tfc",
+      "family": "mspk_nth_primes4_13.tfc",
+      "wires": 4,
+      "gates": 13,
+      "gate_types": {
+        "t2": 7,
+        "t3": 6
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "f4675059f036f2166139eb53d1440e337968d59a50f1013fe1d88970aad5e998",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/mspk_nth_primes4_13.tfc",
+          "sha256": "3f7327356d4444358ce56ae6d6f461c4e62cdb881469c354a980a79567ee0f6a",
+          "metadata": {
+            ".v": "a,b,c,d",
+            ".i": "a,b,c,d",
+            ".o": "a,b,c,d"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "mspk_nth_primes4_13.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": true,
+      "benchmark_file": "data/public_4to7/n4/mspk_nth_primes4_13.real",
+      "converted_sha256": "3f5fb72d3caa2887362b63b723e4476fdc498ce551bf8a6dd553020621f6bcb3",
+      "benchmark_sha256": "3f5fb72d3caa2887362b63b723e4476fdc498ce551bf8a6dd553020621f6bcb3"
+    },
+    {
+      "id": "mspk_4_49_14",
+      "name": "mspk_4_49_14.tfc",
+      "family": "mspk_4_49_14.tfc",
+      "wires": 4,
+      "gates": 14,
+      "gate_types": {
+        "t2": 8,
+        "t1": 1,
+        "t3": 5
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "a245adbbb952879ab1d8b6807201011cc508e5223543c1999e06305f443508e8",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/mspk_4_49_14.tfc",
+          "sha256": "78551a5ad3744fff3c7792233d99eb96970b90735ceb98b2e1e3f4934d74d6e0",
+          "metadata": {
+            ".v": "a,b,c,d",
+            ".i": "a,b,c,d",
+            ".o": "a,b,c,d"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "mspk_4_49_14.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": true,
+      "benchmark_file": "data/public_4to7/n4/mspk_4_49_14.real",
+      "converted_sha256": "c457bc426353b2a10eb655fc3cf784317efba59b374353f2c97ce1351c968113",
+      "benchmark_sha256": "c457bc426353b2a10eb655fc3cf784317efba59b374353f2c97ce1351c968113"
+    },
+    {
+      "id": "mspk_nth_primes4_14",
+      "name": "mspk_nth_primes4_14.tfc",
+      "family": "mspk_nth_primes4_14.tfc",
+      "wires": 4,
+      "gates": 14,
+      "gate_types": {
+        "t2": 9,
+        "t3": 5
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "ed734f96771d5125bcf3fadb45eaf01a301ce329bf7f0ba957078ac95b70fe1b",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/mspk_nth_primes4_14.tfc",
+          "sha256": "838a1ea7bc5a05982bbc2cdfa01699002c58ec1bd6df240a535494e3ceaa6096",
+          "metadata": {
+            ".v": "a,b,c,d",
+            ".i": "a,b,c,d",
+            ".o": "a,b,c,d"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "mspk_nth_primes4_14.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": true,
+      "benchmark_file": "data/public_4to7/n4/mspk_nth_primes4_14.real",
+      "converted_sha256": "4116ae1c61b5661a5e84d8f757ff17a7fb7fdecdaec95f8d10916bb21e700452",
+      "benchmark_sha256": "4116ae1c61b5661a5e84d8f757ff17a7fb7fdecdaec95f8d10916bb21e700452"
+    },
+    {
+      "id": "4b15g_1",
+      "name": "4b15g_1.tfc",
+      "family": "4b15g_1.tfc",
+      "wires": 4,
+      "gates": 15,
+      "gate_types": {
+        "t2": 6,
+        "t3": 5,
+        "t4": 1,
+        "t1": 3
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "85e522e6e9e5ca9e15ed4d9ef7f29e600f57ebc5b7398b316abd1988b7c5d7ca",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/4b15g_1.tfc",
+          "sha256": "ab3d8aebbbc397471d72968cdcf255180aa5619ed64c7707329797c827924b53",
+          "metadata": {
+            ".v": "a,b,c,d",
+            ".i": "a,b,c,d",
+            ".o": "a,b,c,d"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "4b15g_1.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": true,
+      "benchmark_file": "data/public_4to7/n4/4b15g_1.real",
+      "converted_sha256": "d2b53af47a7253566ea88c5df041676b55a70a7956d12cd8df764db9c24a7902",
+      "benchmark_sha256": "d2b53af47a7253566ea88c5df041676b55a70a7956d12cd8df764db9c24a7902"
+    },
+    {
+      "id": "4b15g_2",
+      "name": "4b15g_2.tfc",
+      "family": "4b15g_2.tfc",
+      "wires": 4,
+      "gates": 15,
+      "gate_types": {
+        "t1": 4,
+        "t2": 3,
+        "t4": 2,
+        "t3": 6
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "b6b4f88d771871c6a984902d6871e0616652ab049792b8c1f8effd98c1435f2a",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/4b15g_2.tfc",
+          "sha256": "985baf9125416747b4e3b84635eb33a2c37007a8d5a2ba505d515cfdd8554eb4",
+          "metadata": {
+            ".v": "a,b,c,d",
+            ".i": "a,b,c,d",
+            ".o": "a,b,c,d"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "4b15g_2.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": true,
+      "benchmark_file": "data/public_4to7/n4/4b15g_2.real",
+      "converted_sha256": "1915dcefd59221124a746279534888b908aee3f25aebe9dcac18fab73e96fb58",
+      "benchmark_sha256": "1915dcefd59221124a746279534888b908aee3f25aebe9dcac18fab73e96fb58"
+    },
+    {
+      "id": "4b15g_3",
+      "name": "4b15g_3.tfc",
+      "family": "4b15g_3.tfc",
+      "wires": 4,
+      "gates": 15,
+      "gate_types": {
+        "t1": 3,
+        "t2": 6,
+        "t3": 4,
+        "t4": 2
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "e427a62de202c08d6c55f0fba6af3d7815915f42d6f4f8dbd98357947dcebfae",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/4b15g_3.tfc",
+          "sha256": "0ce0e4d134be9cc73251002b0887c4f237410e5d30cc7cc4a912cf2ca4d13cf5",
+          "metadata": {
+            ".v": "a,b,c,d",
+            ".i": "a,b,c,d",
+            ".o": "a,b,c,d"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "4b15g_3.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": true,
+      "benchmark_file": "data/public_4to7/n4/4b15g_3.real",
+      "converted_sha256": "a14a1766136f77ac313c6067316dcd6858614754e29aeb6e070cbe8e685fd1c0",
+      "benchmark_sha256": "a14a1766136f77ac313c6067316dcd6858614754e29aeb6e070cbe8e685fd1c0"
+    },
+    {
+      "id": "4b15g_4",
+      "name": "4b15g_4.tfc",
+      "family": "4b15g_4.tfc",
+      "wires": 4,
+      "gates": 15,
+      "gate_types": {
+        "t2": 6,
+        "t4": 1,
+        "t3": 5,
+        "t1": 3
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "f8c517f3975e087f241e27ade5a8a71f05b24852caaffb7401580f4dd08bcde6",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/4b15g_4.tfc",
+          "sha256": "71b1a69fd52364f32e2ef972fdebea64f9820be041d49ace025117b2ffcd5377",
+          "metadata": {
+            ".v": "a,b,c,d",
+            ".i": "a,b,c,d",
+            ".o": "a,b,c,d"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "4b15g_4.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": true,
+      "benchmark_file": "data/public_4to7/n4/4b15g_4.real",
+      "converted_sha256": "562a609cdf684bec8bfd02baff5bf1d5f2832345a86b970205a73b7fffcf8a27",
+      "benchmark_sha256": "562a609cdf684bec8bfd02baff5bf1d5f2832345a86b970205a73b7fffcf8a27"
+    },
+    {
+      "id": "4b15g_5",
+      "name": "4b15g_5.tfc",
+      "family": "4b15g_5.tfc",
+      "wires": 4,
+      "gates": 15,
+      "gate_types": {
+        "t2": 5,
+        "t3": 7,
+        "t1": 3
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "68d768ac22e6b2de8dee7de77905b415670d33592e37c10111737037a9420d5f",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/4b15g_5.tfc",
+          "sha256": "58b3f7118596ae5000ffd3de11fbe8579170d95c9db5c43dc4d7b06d52f9e499",
+          "metadata": {
+            ".v": "a,b,c,d",
+            ".i": "a,b,c,d",
+            ".o": "a,b,c,d"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "4b15g_5.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": true,
+      "benchmark_file": "data/public_4to7/n4/4b15g_5.real",
+      "converted_sha256": "80a8f491877d0172470572e1fd604e23cac5bf7a1df098e66fb61fe144cb284d",
+      "benchmark_sha256": "80a8f491877d0172470572e1fd604e23cac5bf7a1df098e66fb61fe144cb284d"
+    },
+    {
+      "id": "mspk_4b15g_1",
+      "name": "mspk_4b15g_1.tfc",
+      "family": "mspk_4b15g_1.tfc",
+      "wires": 4,
+      "gates": 15,
+      "gate_types": {
+        "t2": 9,
+        "t3": 4,
+        "t1": 1,
+        "t4": 1
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "1c0982d04208b6b0a000a024772eb07aa0c3e369301a9cb81f1735c4789f2860",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/mspk_4b15g_1.tfc",
+          "sha256": "5ade248dc5c0ba0e681ba3f265d528d84f36b426bfc53915df7221de4077b474",
+          "metadata": {
+            ".v": "a,b,c,d",
+            ".i": "a,b,c,d",
+            ".o": "a,b,c,d"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "mspk_4b15g_1.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": true,
+      "benchmark_file": "data/public_4to7/n4/mspk_4b15g_1.real",
+      "converted_sha256": "0f81bdcae97028d9cda9fdcbf6688137259893efa20447d4a56a7cc2211549bd",
+      "benchmark_sha256": "0f81bdcae97028d9cda9fdcbf6688137259893efa20447d4a56a7cc2211549bd"
+    },
+    {
+      "id": "mspk_4b15g_2",
+      "name": "mspk_4b15g_2.tfc",
+      "family": "mspk_4b15g_2.tfc",
+      "wires": 4,
+      "gates": 15,
+      "gate_types": {
+        "t1": 1,
+        "t2": 9,
+        "t3": 5
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "64ada61552d6d08fe63d6f480c6b9c351181a4c619fefb500f0d220a150630a6",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/mspk_4b15g_2.tfc",
+          "sha256": "833234dbd4a58fcff901a7bdf374d11de298262dd949b2880c50b63ef11f2a28",
+          "metadata": {
+            ".v": "a,b,c,d",
+            ".i": "a,b,c,d",
+            ".o": "a,b,c,d"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "mspk_4b15g_2.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": true,
+      "benchmark_file": "data/public_4to7/n4/mspk_4b15g_2.real",
+      "converted_sha256": "c03dc74a394f533fb370fef088b2c06e8e5e1c73f9ac091f0622dffa7ac44213",
+      "benchmark_sha256": "c03dc74a394f533fb370fef088b2c06e8e5e1c73f9ac091f0622dffa7ac44213"
+    },
+    {
+      "id": "mspk_4b15g_3",
+      "name": "mspk_4b15g_3.tfc",
+      "family": "mspk_4b15g_3.tfc",
+      "wires": 4,
+      "gates": 15,
+      "gate_types": {
+        "t1": 2,
+        "t2": 8,
+        "t3": 5
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "5608fb411fc2c8ccaed8795443d4b278dd18b79a35814a37bba305957c72eaf0",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/mspk_4b15g_3.tfc",
+          "sha256": "d881c286d63bf961c5c48c3ad70a1204d9568a3622b7e66b1627494d87bba89b",
+          "metadata": {
+            ".v": "a,b,c,d",
+            ".i": "a,b,c,d",
+            ".o": "a,b,c,d"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "mspk_4b15g_3.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": true,
+      "benchmark_file": "data/public_4to7/n4/mspk_4b15g_3.real",
+      "converted_sha256": "b83ca14f180bba35eea668d75ddd8e3509844490098160388a8a90162b626158",
+      "benchmark_sha256": "b83ca14f180bba35eea668d75ddd8e3509844490098160388a8a90162b626158"
+    },
+    {
+      "id": "mspk_4b15g_4",
+      "name": "mspk_4b15g_4.tfc",
+      "family": "mspk_4b15g_4.tfc",
+      "wires": 4,
+      "gates": 15,
+      "gate_types": {
+        "t2": 10,
+        "t3": 3,
+        "t1": 1,
+        "t4": 1
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "8bee496389472a458c25ebe0e17f06aac203e5aba1c3cc89d71c1aad6f99b74a",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/mspk_4b15g_4.tfc",
+          "sha256": "8a54593ed72db66ddc7966d8a2e138de04898b62ff3b6405e98639d7b852414e",
+          "metadata": {
+            ".v": "a,b,c,d",
+            ".i": "a,b,c,d",
+            ".o": "a,b,c,d"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "mspk_4b15g_4.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": true,
+      "benchmark_file": "data/public_4to7/n4/mspk_4b15g_4.real",
+      "converted_sha256": "59d5ef7d57cc61dc7a2603a48c2bce3594242eabaa5f2599addff8040ab2951d",
+      "benchmark_sha256": "59d5ef7d57cc61dc7a2603a48c2bce3594242eabaa5f2599addff8040ab2951d"
+    },
+    {
+      "id": "mspk_4b15g_5",
+      "name": "mspk_4b15g_5.tfc",
+      "family": "mspk_4b15g_5.tfc",
+      "wires": 4,
+      "gates": 15,
+      "gate_types": {
+        "t2": 8,
+        "t3": 6,
+        "t1": 1
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "1bcceb5fdaa63743a85c214c9739ae2445c8365cc0029371b2f9a9b3cfdb7731",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/mspk_4b15g_5.tfc",
+          "sha256": "6a431c7ce02707627413a4ebe9d0e7870aef1c634843847399b95d3337cc526f",
+          "metadata": {
+            ".v": "a,b,c,d",
+            ".i": "a,b,c,d",
+            ".o": "a,b,c,d"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "mspk_4b15g_5.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": true,
+      "benchmark_file": "data/public_4to7/n4/mspk_4b15g_5.real",
+      "converted_sha256": "10a2f7f9877c83a04f6ea012c864a34367cca7b6ecfb6cbc97e1231d19f2f254",
+      "benchmark_sha256": "10a2f7f9877c83a04f6ea012c864a34367cca7b6ecfb6cbc97e1231d19f2f254"
+    },
+    {
+      "id": "nth_prime4_inc_15_51",
+      "name": "nth_prime4_inc_15_51.tfc",
+      "family": "nth_prime_inc",
+      "wires": 4,
+      "gates": 15,
+      "gate_types": {
+        "t2": 10,
+        "t3": 3,
+        "t4": 2
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "57af25966c6daa7918efabde7ae1b7106f07638f919146d59461ddbcd7695276",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/nth_prime4_inc_15_51.tfc",
+          "sha256": "7f3eda2fceb3c73cda5f96d0e4bcc36474d9708733b55b4ad87ad20345f0a319",
+          "metadata": {
+            ".v": "a,b,c,d",
+            ".i": "a,b,c,d",
+            ".o": "a,b,c,d"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "nth_prime4_inc_15_51.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": true,
+      "benchmark_file": "data/public_4to7/n4/nth_prime4_inc_15_51.real",
+      "converted_sha256": "f6f4dafc5cdb56e56f68fb8718c22f4558095461cf5dc82f45fd5021a082fee8",
+      "benchmark_sha256": "f6f4dafc5cdb56e56f68fb8718c22f4558095461cf5dc82f45fd5021a082fee8"
+    },
+    {
+      "id": "4_49_16",
+      "name": "4_49_16.real",
+      "family": "4_49_16.real",
+      "wires": 4,
+      "gates": 16,
+      "gate_types": {
+        "t4": 2,
+        "t2": 8,
+        "t3": 5,
+        "t1": 1
+      },
+      "category": "ready_real",
+      "sequence_sha256": "e3bbf890ffee36bf38259894a868079b9c2e98584b638fd201765e116157bcff",
+      "sources": [
+        {
+          "url": "https://revlib.org/doc/real/4_49_16.real",
+          "sha256": "1bda626e2d035718c04cceb37dda00b1c6f7a6d3842cd4e6ee39526ea26a5c1d",
+          "metadata": {
+            ".version": "1.0",
+            ".numvars": "4",
+            ".variables": "a b c d",
+            ".outputs": "a b c d",
+            ".constants": "----",
+            ".garbage": "----"
+          },
+          "git_blob_sha1": null,
+          "category": "ready_real",
+          "source_filename": "4_49_16.real",
+          "file": "data/public_4to7/n4/4_49_16.real"
+        },
+        {
+          "url": "https://reversiblebenchmarks.github.io/4_49tc1.tfc",
+          "sha256": "85c552c68d6ee944b08916f7712e9780e40cdc8421dc9bb2fdbdffea8b599d0e",
+          "metadata": {
+            ".v": "a,b,c,d",
+            ".i": "a,b,c,d",
+            ".o": "a,b,c,d"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "4_49tc1.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": false,
+      "benchmark_file": "data/public_4to7/n4/4_49_16.real",
+      "benchmark_sha256": "1bda626e2d035718c04cceb37dda00b1c6f7a6d3842cd4e6ee39526ea26a5c1d"
+    },
+    {
+      "id": "hwb4_49",
+      "name": "hwb4_49.real",
+      "family": "HWB",
+      "wires": 4,
+      "gates": 17,
+      "gate_types": {
+        "t2": 9,
+        "t3": 6,
+        "t4": 2
+      },
+      "category": "ready_real",
+      "sequence_sha256": "09625fa5c4c9f0e9d6aa2f101f9287ee8644a39090107b57d5339d56003873ba",
+      "sources": [
+        {
+          "url": "https://revlib.org/doc/real/hwb4_49.real",
+          "sha256": "9fef5741c5d6279b96e8fcc28aa98fcb77e2e26c30397bbaa3e8ac8ba7409c67",
+          "metadata": {
+            ".version": "1.0",
+            ".numvars": "4",
+            ".variables": "a b c d",
+            ".inputs": "a b c d",
+            ".outputs": "a b c d",
+            ".constants": "----",
+            ".garbage": "----"
+          },
+          "git_blob_sha1": null,
+          "category": "ready_real",
+          "source_filename": "hwb4_49.real",
+          "file": "data/public_4to7/n4/hwb4_49.real"
+        },
+        {
+          "url": "https://reversiblebenchmarks.github.io/hwb4tc.tfc",
+          "sha256": "3aad06ce6c1fe1192adfbaf8bbe2e2f7160d9f6ddbddccce420940d5c8fbada1",
+          "metadata": {
+            ".v": "a,b,c,d",
+            ".i": "a,b,c,d",
+            ".o": "a,b,c,d"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "hwb4tc.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": false,
+      "benchmark_file": "data/public_4to7/n4/hwb4_49.real",
+      "benchmark_sha256": "9fef5741c5d6279b96e8fcc28aa98fcb77e2e26c30397bbaa3e8ac8ba7409c67"
+    },
+    {
+      "id": "4gt4-v0_73",
+      "name": "4gt4-v0_73.real",
+      "family": "4gt4-v0_73.real",
+      "wires": 5,
+      "gates": 17,
+      "gate_types": {
+        "t2": 11,
+        "t5": 1,
+        "t4": 3,
+        "t3": 2
+      },
+      "category": "ready_real",
+      "sequence_sha256": "0b527ca0215b234f908608d1f8788529f7101eb056b134c14e61bdb660eb5529",
+      "sources": [
+        {
+          "url": "https://revlib.org/doc/real/4gt4-v0_73.real",
+          "sha256": "2c21e2c1e6160d464dce900597a222b6a5516c38a278b796baad093b27386030",
+          "metadata": {
+            ".version": "1.0",
+            ".numvars": "5",
+            ".variables": "a b c d e",
+            ".inputs": "0 b c d e",
+            ".outputs": "g g g g f"
+          },
+          "git_blob_sha1": null,
+          "category": "ready_real",
+          "source_filename": "4gt4-v0_73.real",
+          "file": "data/public_4to7/n5/4gt4-v0_73.real"
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": false,
+      "benchmark_file": "data/public_4to7/n5/4gt4-v0_73.real",
+      "benchmark_sha256": "2c21e2c1e6160d464dce900597a222b6a5516c38a278b796baad093b27386030"
+    },
+    {
+      "id": "hwb5-24-102",
+      "name": "hwb5-24-102.tfc",
+      "family": "HWB",
+      "wires": 5,
+      "gates": 24,
+      "gate_types": {
+        "t2": 12,
+        "t3": 5,
+        "t1": 2,
+        "t4": 5
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "173387afc3f859118f8e926a141a509e75036f8be24518d2f947ab564274eb44",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/hwb5-24-102.tfc",
+          "sha256": "343d6c81062ddc7070942c020b4513f6ed3831b49d21c7cf2453b21a33a8198a",
+          "metadata": {
+            ".v": "a,b,c,d,e",
+            ".i": "a,b,c,d,e",
+            ".o": "a,b,c,d,e"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "hwb5-24-102.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": false,
+      "benchmark_file": "data/public_4to7/n5/hwb5-24-102.real",
+      "converted_sha256": "9fdca2f7a06abcad697532d1ca4a3009140e4ccf29b0b3c3d330dceefc2cb05f",
+      "benchmark_sha256": "9fdca2f7a06abcad697532d1ca4a3009140e4ccf29b0b3c3d330dceefc2cb05f"
+    },
+    {
+      "id": "hwb5_55",
+      "name": "hwb5_55.real",
+      "family": "HWB",
+      "wires": 5,
+      "gates": 24,
+      "gate_types": {
+        "t2": 11,
+        "t3": 5,
+        "t1": 3,
+        "t4": 5
+      },
+      "category": "ready_real",
+      "sequence_sha256": "d5ac65763bc60c02fc07e8b3da92b4b0cbc796f0c5ab1397c7b9e3300fea5416",
+      "sources": [
+        {
+          "url": "https://revlib.org/doc/real/hwb5_55.real",
+          "sha256": "0813995dd3f99595b17fd4d82817141d3b92d0f6ef37f1cc6515141219d416ff",
+          "metadata": {
+            ".version": "1.0",
+            ".numvars": "5",
+            ".variables": "a b c d e",
+            ".inputs": "a b c d e",
+            ".outputs": "a b c d e",
+            ".constants": "-----",
+            ".garbage": "-----"
+          },
+          "git_blob_sha1": null,
+          "category": "ready_real",
+          "source_filename": "hwb5_55.real",
+          "file": "data/public_4to7/n5/hwb5_55.real"
+        },
+        {
+          "url": "https://reversiblebenchmarks.github.io/hwb5-24-114.tfc",
+          "sha256": "2ec48eb0ddf917a469ffb0e57219a6c6087240f12ae5e5d15d2d7574ebb70362",
+          "metadata": {
+            ".v": "a,b,c,d,e",
+            ".i": "a,b,c,d,e",
+            ".o": "a,b,c,d,e"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "hwb5-24-114.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": false,
+      "benchmark_file": "data/public_4to7/n5/hwb5_55.real",
+      "benchmark_sha256": "0813995dd3f99595b17fd4d82817141d3b92d0f6ef37f1cc6515141219d416ff"
+    },
+    {
+      "id": "nth_prime5_inc_25_103",
+      "name": "nth_prime5_inc_25_103.tfc",
+      "family": "nth_prime_inc",
+      "wires": 5,
+      "gates": 25,
+      "gate_types": {
+        "t2": 10,
+        "t3": 9,
+        "t1": 2,
+        "t4": 4
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "08dc6ffa8cf3beb2223f427adf54d17a11dc844c87ba705480cf79adae210769",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/nth_prime5_inc_25_103.tfc",
+          "sha256": "2eacd4839edefe41b966407e311daead9ed262cdc76f0ea4c2ce7e3c866b13dd",
+          "metadata": {
+            ".v": "a,b,c,d,e",
+            ".i": "a,b,c,d,e",
+            ".o": "a,b,c,d,e"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "nth_prime5_inc_25_103.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": true,
+      "benchmark_file": "data/public_4to7/n5/nth_prime5_inc_25_103.real",
+      "converted_sha256": "1f14438e9224f410b8838439ecd13eb4b36a2054008bf83d9fab757a4b32bdd3",
+      "benchmark_sha256": "1f14438e9224f410b8838439ecd13eb4b36a2054008bf83d9fab757a4b32bdd3"
+    },
+    {
+      "id": "nth_prime5_inc-28-96",
+      "name": "nth_prime5_inc-28-96.tfc",
+      "family": "nth_prime_inc",
+      "wires": 5,
+      "gates": 28,
+      "gate_types": {
+        "t2": 10,
+        "t3": 15,
+        "t1": 2,
+        "t4": 1
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "da9d345442802662a9d73a818abbce602db414af7938ec13f01cf83183f7b872",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/nth_prime5_inc-28-96.tfc",
+          "sha256": "c84bef8e7b4cb60b8ebca5193dd6c4c45b8d9eda3eca5267fa8617edf382af8d",
+          "metadata": {
+            ".v": "a,b,c,d,e",
+            ".i": "a,b,c,d,e",
+            ".o": "a,b,c,d,e"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "nth_prime5_inc-28-96.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": false,
+      "benchmark_file": "data/public_4to7/n5/nth_prime5_inc-28-96.real",
+      "converted_sha256": "4872eb1afbecc120cbacf6c19d339a0e6cde382b94efe10c115df4f2653eda5d",
+      "benchmark_sha256": "4872eb1afbecc120cbacf6c19d339a0e6cde382b94efe10c115df4f2653eda5d"
+    },
+    {
+      "id": "nth_prime5_inc_29_91",
+      "name": "nth_prime5_inc_29_91.tfc",
+      "family": "nth_prime_inc",
+      "wires": 5,
+      "gates": 29,
+      "gate_types": {
+        "t2": 12,
+        "t3": 14,
+        "t1": 2,
+        "t4": 1
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "ed28efed5b9e3ed6399740c52a4421b44b552a2007f7c3bc1c4039d0eff0c4ab",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/nth_prime5_inc_29_91.tfc",
+          "sha256": "1b8a13eecfa0c0d00d4a8636b364381688cc44f6f4a6e55ad6142215a1c0d92a",
+          "metadata": {
+            ".v": "a,b,c,d,e",
+            ".i": "a,b,c,d,e",
+            ".o": "a,b,c,d,e"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "nth_prime5_inc_29_91.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": true,
+      "benchmark_file": "data/public_4to7/n5/nth_prime5_inc_29_91.real",
+      "converted_sha256": "4044b2f62811a8f649fa20f99141fd43b82dc5b274a6781d7d298293917281ea",
+      "benchmark_sha256": "4044b2f62811a8f649fa20f99141fd43b82dc5b274a6781d7d298293917281ea"
+    },
+    {
+      "id": "hwb5_31_91",
+      "name": "hwb5_31_91.tfc",
+      "family": "HWB",
+      "wires": 5,
+      "gates": 31,
+      "gate_types": {
+        "t2": 18,
+        "t3": 9,
+        "t1": 2,
+        "t4": 2
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "91f99c8bf7c22f4159ee63750a5679e22cd7f3f1cbc83f14558b6aaf671057cc",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/hwb5_31_91.tfc",
+          "sha256": "a02a4566cb0a2a30b52033c735f5a7e80cac83b5c692ed8514962a29f3257276",
+          "metadata": {
+            ".v": "a,b,c,d,e",
+            ".i": "a,b,c,d,e",
+            ".o": "a,b,c,d,e"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "hwb5_31_91.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": true,
+      "benchmark_file": "data/public_4to7/n5/hwb5_31_91.real",
+      "converted_sha256": "0147c2151f3437d1a8660fe5ab75e452ebe2e42ac8d334feede3687d76726334",
+      "benchmark_sha256": "0147c2151f3437d1a8660fe5ab75e452ebe2e42ac8d334feede3687d76726334"
+    },
+    {
+      "id": "hwb5-33-71",
+      "name": "hwb5-33-71.tfc",
+      "family": "HWB",
+      "wires": 5,
+      "gates": 33,
+      "gate_types": {
+        "t2": 19,
+        "t3": 11,
+        "t1": 3
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "d9de27f4855248965e4528663bd59adfd4206d3c77230c5d8156761526c764c6",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/hwb5-33-71.tfc",
+          "sha256": "d584cab6f452ed2a6880d2bb1f6dbd237f7010bd8b3f91ccfe70ad5c2782f08c",
+          "metadata": {
+            ".v": "a,b,c,d,e",
+            ".i": "a,b,c,d,e",
+            ".o": "a,b,c,d,e"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "hwb5-33-71.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": true,
+      "benchmark_file": "data/public_4to7/n5/hwb5-33-71.real",
+      "converted_sha256": "9075624138c960d00174462b5a81db91cab920a89f3b1c212fc12625390cb646",
+      "benchmark_sha256": "9075624138c960d00174462b5a81db91cab920a89f3b1c212fc12625390cb646"
+    },
+    {
+      "id": "mspk_nth_prime5_inc_29_91_opt_36_80",
+      "name": "mspk_nth_prime5_inc_29_91_opt_36_80.tfc",
+      "family": "mspk_nth_prime5_inc_29_91_opt_36_80.tfc",
+      "wires": 5,
+      "gates": 36,
+      "gate_types": {
+        "t1": 2,
+        "t2": 20,
+        "t3": 13,
+        "t4": 1
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "c0b1b5e933cd2519aa03bbbc533f46a40d9597a99fc5bb54bb109d0dd6e18bde",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/mspk_nth_prime5_inc_29_91_opt_36_80.tfc",
+          "sha256": "666d766992c58a80c7bad526a0e088600f6f81dcb092486c0a003fafdea0d700",
+          "metadata": {
+            ".v": "a,b,c,d,e",
+            ".i": "a,b,c,d,e",
+            ".o": "a,b,c,d,e"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "mspk_nth_prime5_inc_29_91_opt_36_80.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": true,
+      "benchmark_file": "data/public_4to7/n5/mspk_nth_prime5_inc_29_91_opt_36_80.real",
+      "converted_sha256": "bce715fe9b999dc368d3a165eca5074a6254542ebb9b7f19fed2137eb97deb0f",
+      "benchmark_sha256": "bce715fe9b999dc368d3a165eca5074a6254542ebb9b7f19fed2137eb97deb0f"
+    },
+    {
+      "id": "mspk_hwb5_31_91_opt_38_80",
+      "name": "mspk_hwb5_31_91_opt_38_80.tfc",
+      "family": "mspk_hwb5_31_91_opt_38_80.tfc",
+      "wires": 5,
+      "gates": 38,
+      "gate_types": {
+        "t2": 27,
+        "t3": 7,
+        "t1": 2,
+        "t4": 2
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "5de6e2f9d11e1af385497d74b3a3e3ea3c3ee4fdc6a6ff1acbee0e46a28c9eb4",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/mspk_hwb5_31_91_opt_38_80.tfc",
+          "sha256": "3a2f8081ffdb09f855ef8a80e717aeb0759a342679e287d862ab850f11e3584c",
+          "metadata": {
+            ".v": "a,b,c,d,e",
+            ".i": "a,b,c,d,e",
+            ".o": "a,b,c,d,e"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "mspk_hwb5_31_91_opt_38_80.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": true,
+      "benchmark_file": "data/public_4to7/n5/mspk_hwb5_31_91_opt_38_80.real",
+      "converted_sha256": "8f8a7bbfb31bf7021a45ac4010c5bb271736392d887f62c902cf84217e772669",
+      "benchmark_sha256": "8f8a7bbfb31bf7021a45ac4010c5bb271736392d887f62c902cf84217e772669"
+    },
+    {
+      "id": "hwb5_53",
+      "name": "hwb5_53.real",
+      "family": "HWB",
+      "wires": 5,
+      "gates": 55,
+      "gate_types": {
+        "t2": 24,
+        "t3": 18,
+        "t4": 11,
+        "t5": 2
+      },
+      "category": "ready_real",
+      "sequence_sha256": "d96b0fc6211bc60b9580b636fcf06ce855d0f1d6196b8d35750a28ad7a024036",
+      "sources": [
+        {
+          "url": "https://revlib.org/doc/real/hwb5_53.real",
+          "sha256": "540d3dc12eb3ac7b09865622d13dbca84bdc2e32b318f8e6ff3a184bc9dcd05e",
+          "metadata": {
+            ".version": "1.0",
+            ".numvars": "5",
+            ".variables": "a b c d e",
+            ".inputs": "a b c d e",
+            ".outputs": "a b c d e",
+            ".constants": "-----",
+            ".garbage": "-----"
+          },
+          "git_blob_sha1": null,
+          "category": "ready_real",
+          "source_filename": "hwb5_53.real",
+          "file": "data/public_4to7/n5/hwb5_53.real"
+        },
+        {
+          "url": "https://reversiblebenchmarks.github.io/hwb5tc.tfc",
+          "sha256": "99b90a7ffd30181ab1d40ced85335f1e23f6adc7031eebcad2f7456454e4fe02",
+          "metadata": {
+            ".v": "a,b,c,d,e",
+            ".i": "a,b,c,d,e",
+            ".o": "a,b,c,d,e"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "hwb5tc.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": false,
+      "benchmark_file": "data/public_4to7/n5/hwb5_53.real",
+      "benchmark_sha256": "540d3dc12eb3ac7b09865622d13dbca84bdc2e32b318f8e6ff3a184bc9dcd05e"
+    },
+    {
+      "id": "mod5adder-15",
+      "name": "mod5adder-15.tfc",
+      "family": "mod5adder-15.tfc",
+      "wires": 6,
+      "gates": 15,
+      "gate_types": {
+        "t1": 6,
+        "t3": 5,
+        "t4": 4
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "6ef2485897a8f257ecdaf9a0cbcf1731a8a7fdfca8436634e0e05c80a6039037",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/mod5adder-15.tfc",
+          "sha256": "6bf0fb26fd8a74c0ba4074b3cd34283722f67257c67a39f8327a1852b13bb3fd",
+          "metadata": {
+            ".v": "a,b,c,d,e,f",
+            ".i": "a,b,c,d,e,f",
+            ".o": "a,b,c,d,e,f"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "mod5adder-15.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": false,
+      "benchmark_file": "data/public_4to7/n6/mod5adder-15.real",
+      "converted_sha256": "bfd642a62d7599b3d57b9446c2cfdf9c7d524d6d12e38050e4da9478381e0d16",
+      "benchmark_sha256": "bfd642a62d7599b3d57b9446c2cfdf9c7d524d6d12e38050e4da9478381e0d16"
+    },
+    {
+      "id": "mod5adder_128",
+      "name": "mod5adder_128.real",
+      "family": "mod5adder_128.real",
+      "wires": 6,
+      "gates": 15,
+      "gate_types": {
+        "t1": 6,
+        "t3": 5,
+        "t4": 4
+      },
+      "category": "ready_real",
+      "sequence_sha256": "378f33002123e5d68492c2b5c3bcbdaac2a0145db64fead1015770d32d37c6ca",
+      "sources": [
+        {
+          "url": "https://revlib.org/doc/real/mod5adder_128.real",
+          "sha256": "9cfb71feabaee6752d8cb5977be3a6905f6ce9c92a5ffae0aacdc50145f0dfa4",
+          "metadata": {
+            ".version": "1.0",
+            ".numvars": "6",
+            ".variables": "f e d c b a",
+            ".inputs": "f e d c b a",
+            ".outputs": "f e d c b a",
+            ".constants": "------",
+            ".garbage": "------"
+          },
+          "git_blob_sha1": null,
+          "category": "ready_real",
+          "source_filename": "mod5adder_128.real",
+          "file": "data/public_4to7/n6/mod5adder_128.real"
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": false,
+      "benchmark_file": "data/public_4to7/n6/mod5adder_128.real",
+      "benchmark_sha256": "9cfb71feabaee6752d8cb5977be3a6905f6ce9c92a5ffae0aacdc50145f0dfa4"
+    },
+    {
+      "id": "mod5adder-17-69",
+      "name": "mod5adder-17-69.tfc",
+      "family": "mod5adder-17-69.tfc",
+      "wires": 6,
+      "gates": 17,
+      "gate_types": {
+        "t3": 7,
+        "t1": 4,
+        "t2": 4,
+        "t4": 2
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "c9b739bc82b6c166e2197e6dbb50a5a7ef084e3e11bef1d37c6c6f9899c547b3",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/mod5adder-17-69.tfc",
+          "sha256": "948be978876d877aa35a882b4a2748897e0e512c46613c2728cb484f080f5574",
+          "metadata": {
+            ".v": "a,b,c,d,e,f",
+            ".i": "a,b,c,d,e,f",
+            ".o": "a,b,c,d,e,f"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "mod5adder-17-69.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": true,
+      "benchmark_file": "data/public_4to7/n6/mod5adder-17-69.real",
+      "converted_sha256": "28dc0a0dfec2e39e4b681410c4876744a0b0431ba028f975cf93439f5a5e693b",
+      "benchmark_sha256": "28dc0a0dfec2e39e4b681410c4876744a0b0431ba028f975cf93439f5a5e693b"
+    },
+    {
+      "id": "mod5adder-17-81",
+      "name": "mod5adder-17-81.tfc",
+      "family": "mod5adder-17-81.tfc",
+      "wires": 6,
+      "gates": 17,
+      "gate_types": {
+        "t1": 6,
+        "t3": 9,
+        "t4": 2
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "3ee570ebb7aac18c0f55ce795922b280098804dccdfe69da0ec03e4fa94edd64",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/mod5adder-17-81.tfc",
+          "sha256": "f28035ba1b897c42c70247611b17400df5b45eb4131e462e09a5f7aefef66f15",
+          "metadata": {
+            ".v": "a,b,c,d,e,f",
+            ".i": "a,b,c,d,e,f",
+            ".o": "a,b,c,d,e,f"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "mod5adder-17-81.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": false,
+      "benchmark_file": "data/public_4to7/n6/mod5adder-17-81.real",
+      "converted_sha256": "6ae46a0ab64c74e721005664e0d34711a219a9b2864a4d885b3517bba115e859",
+      "benchmark_sha256": "6ae46a0ab64c74e721005664e0d34711a219a9b2864a4d885b3517bba115e859"
+    },
+    {
+      "id": "mod5adder_129",
+      "name": "mod5adder_129.real",
+      "family": "mod5adder_129.real",
+      "wires": 6,
+      "gates": 17,
+      "gate_types": {
+        "t1": 6,
+        "t3": 9,
+        "t4": 2
+      },
+      "category": "ready_real",
+      "sequence_sha256": "95554d05e050864fd2620ec5982042170a705e92d079da4e32d83108e9e462fd",
+      "sources": [
+        {
+          "url": "https://revlib.org/doc/real/mod5adder_129.real",
+          "sha256": "45eb76c32a93a8f6e4a99ec7a29474f3e209399f821fb24fa9f19b8e446e305e",
+          "metadata": {
+            ".version": "1.0",
+            ".numvars": "6",
+            ".variables": "f e d c b a",
+            ".inputs": "f e d c b a",
+            ".outputs": "f e d c b a",
+            ".constants": "------",
+            ".garbage": "------"
+          },
+          "git_blob_sha1": null,
+          "category": "ready_real",
+          "source_filename": "mod5adder_129.real",
+          "file": "data/public_4to7/n6/mod5adder_129.real"
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": false,
+      "benchmark_file": "data/public_4to7/n6/mod5adder_129.real",
+      "benchmark_sha256": "45eb76c32a93a8f6e4a99ec7a29474f3e209399f821fb24fa9f19b8e446e305e"
+    },
+    {
+      "id": "mod5adder_127",
+      "name": "mod5adder_127.real",
+      "family": "mod5adder_127.real",
+      "wires": 6,
+      "gates": 21,
+      "gate_types": {
+        "t1": 10,
+        "t4": 2,
+        "t3": 6,
+        "t2": 1,
+        "t5": 2
+      },
+      "category": "ready_real",
+      "sequence_sha256": "9114c61a39d9c7ea7755001d1af41ecd0a71c7aa5e1388bf3a69859c83a26b2f",
+      "sources": [
+        {
+          "url": "https://revlib.org/doc/real/mod5adder_127.real",
+          "sha256": "9c3031ad7ea246311ae2a0aaee3b476162362ecca0cb459520086c6ddb78bb03",
+          "metadata": {
+            ".version": "1.0",
+            ".numvars": "6",
+            ".variables": "a b c d e f",
+            ".inputs": "a b c d e f",
+            ".outputs": "a b c d e f",
+            ".constants": "------",
+            ".garbage": "------"
+          },
+          "git_blob_sha1": null,
+          "category": "ready_real",
+          "source_filename": "mod5adder_127.real",
+          "file": "data/public_4to7/n6/mod5adder_127.real"
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": false,
+      "benchmark_file": "data/public_4to7/n6/mod5adder_127.real",
+      "benchmark_sha256": "9c3031ad7ea246311ae2a0aaee3b476162362ecca0cb459520086c6ddb78bb03"
+    },
+    {
+      "id": "hwb6_58",
+      "name": "hwb6_58.real",
+      "family": "HWB",
+      "wires": 6,
+      "gates": 42,
+      "gate_types": {
+        "t2": 25,
+        "t3": 13,
+        "t4": 4
+      },
+      "category": "ready_real",
+      "sequence_sha256": "360a529fb1829cd2dbf3c9385e7abdd7780fdb6fe61618020a4ac682533e820a",
+      "sources": [
+        {
+          "url": "https://revlib.org/doc/real/hwb6_58.real",
+          "sha256": "33f63e0a64abe17846b3839fc017f87c2318e235c9124479282b9a88fed07c4d",
+          "metadata": {
+            ".version": "1.0",
+            ".numvars": "6",
+            ".variables": "a b c d e f",
+            ".inputs": "a b c d e f",
+            ".outputs": "a b c d e f",
+            ".constants": "------",
+            ".garbage": "------"
+          },
+          "git_blob_sha1": null,
+          "category": "ready_real",
+          "source_filename": "hwb6_58.real",
+          "file": "data/public_4to7/n6/hwb6_58.real"
+        },
+        {
+          "url": "https://reversiblebenchmarks.github.io/hwb6-42-150.tfc",
+          "sha256": "6639393219ff0e112b7291af61b481ffd11286e7b57617346e0291499c8f8701",
+          "metadata": {
+            ".v": "a,b,c,d,e,f",
+            ".i": "a,b,c,d,e,f",
+            ".o": "a,b,c,d,e,f"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "hwb6-42-150.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": false,
+      "benchmark_file": "data/public_4to7/n6/hwb6_58.real",
+      "benchmark_sha256": "33f63e0a64abe17846b3839fc017f87c2318e235c9124479282b9a88fed07c4d"
+    },
+    {
+      "id": "hwb6_47_107",
+      "name": "hwb6_47_107.tfc",
+      "family": "HWB",
+      "wires": 6,
+      "gates": 47,
+      "gate_types": {
+        "t1": 8,
+        "t2": 26,
+        "t3": 12,
+        "t4": 1
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "3cb67868579be6859dc03b6084ac189fe9675489c241328540ef5f30803dbe12",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/hwb6_47_107.tfc",
+          "sha256": "db96be4761a256a29ef93a939cd1786d45c21ed88d809b4e71f12110cd59b00d",
+          "metadata": {
+            ".v": "a,b,c,d,e,f",
+            ".i": "a,b,c,d,e,f",
+            ".o": "a,b,c,d,e,f"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "hwb6_47_107.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": true,
+      "benchmark_file": "data/public_4to7/n6/hwb6_47_107.real",
+      "converted_sha256": "6defd7984b32bbb7236adbdd065b00ce3fa48c339fe3b49ab6ec90c8c97ec356",
+      "benchmark_sha256": "6defd7984b32bbb7236adbdd065b00ce3fa48c339fe3b49ab6ec90c8c97ec356"
+    },
+    {
+      "id": "nth_prime6_inc_55_667",
+      "name": "nth_prime6_inc_55_667.tfc",
+      "family": "nth_prime_inc",
+      "wires": 6,
+      "gates": 55,
+      "gate_types": {
+        "t2": 12,
+        "t1": 5,
+        "t3": 14,
+        "t4": 11,
+        "t5": 11,
+        "t6": 2
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "0ce493bdd7509664f83345f285894458bab45f8dc4e57d6b1b7e61488835bcd9",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/nth_prime6_inc_55_667.tfc",
+          "sha256": "15480ed157571f749296adc838f3b6156c5d0fee72c477ea743df08e5e85eb4f",
+          "metadata": {
+            ".v": "a,b,c,d,e,f",
+            ".i": "a,b,c,d,e,f",
+            ".o": "a,b,c,d,e,f"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "nth_prime6_inc_55_667.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": true,
+      "benchmark_file": "data/public_4to7/n6/nth_prime6_inc_55_667.real",
+      "converted_sha256": "f1d71b6bbf94927e1404586618807490b33af340f8e74eda115d41c190862aaa",
+      "benchmark_sha256": "f1d71b6bbf94927e1404586618807490b33af340f8e74eda115d41c190862aaa"
+    },
+    {
+      "id": "nth_prime6_inc-57-485",
+      "name": "nth_prime6_inc-57-485.tfc",
+      "family": "nth_prime_inc",
+      "wires": 6,
+      "gates": 61,
+      "gate_types": {
+        "t3": 21,
+        "t2": 16,
+        "t1": 10,
+        "t4": 7,
+        "t5": 5,
+        "t6": 2
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "9b14ed6d18f22a28c79df24219f45e2f422f8e856939dc1f40d6d4cb9694c0a4",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/nth_prime6_inc-57-485.tfc",
+          "sha256": "3ef49c7510e93989ff4feeddef1df7ccdbd94756bd61d04bba4fca42763a7c1d",
+          "metadata": {
+            ".v": "a,b,c,d,e,f",
+            ".i": "a,b,c,d,e,f",
+            ".o": "a,b,c,d,e,f"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "nth_prime6_inc-57-485.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": true,
+      "benchmark_file": "data/public_4to7/n6/nth_prime6_inc-57-485.real",
+      "converted_sha256": "e805798b472fe38bea795fc85cdc445393897c7199af77db5a09cc5fb1109321",
+      "benchmark_sha256": "e805798b472fe38bea795fc85cdc445393897c7199af77db5a09cc5fb1109321"
+    },
+    {
+      "id": "hwb6_56",
+      "name": "hwb6_56.real",
+      "family": "HWB",
+      "wires": 6,
+      "gates": 126,
+      "gate_types": {
+        "t3": 47,
+        "t4": 37,
+        "t2": 19,
+        "t5": 19,
+        "t6": 4
+      },
+      "category": "ready_real",
+      "sequence_sha256": "82869f21f1e7a2231b7c25904db4039cd68500bbacdaf3f8dd72cfccaaa9d8a0",
+      "sources": [
+        {
+          "url": "https://revlib.org/doc/real/hwb6_56.real",
+          "sha256": "458cffba1623ff50abf2a16983876c5bed2705b8b452011bf12648d08ed6277c",
+          "metadata": {
+            ".version": "1.0",
+            ".numvars": "6",
+            ".variables": "a b c d e f",
+            ".inputs": "a b c d e f",
+            ".outputs": "a b c d e f",
+            ".constants": "------",
+            ".garbage": "------"
+          },
+          "git_blob_sha1": null,
+          "category": "ready_real",
+          "source_filename": "hwb6_56.real",
+          "file": "data/public_4to7/n6/hwb6_56.real"
+        },
+        {
+          "url": "https://reversiblebenchmarks.github.io/hwb6tc.tfc",
+          "sha256": "437c26f22f2c266d47815a6ce172acbd6bbc8daf58203cc295bee372f3077af2",
+          "metadata": {
+            ".v": "a,b,c,d,e,f",
+            ".i": "a,b,c,d,e,f",
+            ".o": "a,b,c,d,e,f"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "hwb6tc.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": false,
+      "benchmark_file": "data/public_4to7/n6/hwb6_56.real",
+      "benchmark_sha256": "458cffba1623ff50abf2a16983876c5bed2705b8b452011bf12648d08ed6277c"
+    },
+    {
+      "id": "ham7_105",
+      "name": "ham7_105.real",
+      "family": "ham7_105.real",
+      "wires": 7,
+      "gates": 21,
+      "gate_types": {
+        "t2": 14,
+        "t4": 2,
+        "t3": 5
+      },
+      "category": "ready_real",
+      "sequence_sha256": "dd47b630ddcae7cc33e5e22f7423ce7039bf37b2d6e131cd5c138b65f9a74e55",
+      "sources": [
+        {
+          "url": "https://revlib.org/doc/real/ham7_105.real",
+          "sha256": "f6e10f97e0e058b4bdc7de54186d0139b74073d8a10fbc205aa7f4421b93b3e2",
+          "metadata": {
+            ".version": "1.0",
+            ".numvars": "7",
+            ".variables": "a b c d e f g",
+            ".inputs": "a b c d e f g",
+            ".outputs": "a b c d e f g",
+            ".constants": "-------",
+            ".garbage": "-------"
+          },
+          "git_blob_sha1": null,
+          "category": "ready_real",
+          "source_filename": "ham7_105.real",
+          "file": "data/public_4to7/n7/ham7_105.real"
+        },
+        {
+          "url": "https://reversiblebenchmarks.github.io/ham7-21-69.tfc",
+          "sha256": "801d36cb0e93552bb5950741fedf37a6873315af533ddb455773859bf4f0edf3",
+          "metadata": {
+            ".v": "a,b,c,d,e,f,g",
+            ".i": "a,b,c,d,e,f,g",
+            ".o": "a,b,c,d,e,f,g"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "ham7-21-69.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": false,
+      "benchmark_file": "data/public_4to7/n7/ham7_105.real",
+      "benchmark_sha256": "f6e10f97e0e058b4bdc7de54186d0139b74073d8a10fbc205aa7f4421b93b3e2"
+    },
+    {
+      "id": "ham7_104",
+      "name": "ham7_104.real",
+      "family": "ham7_104.real",
+      "wires": 7,
+      "gates": 23,
+      "gate_types": {
+        "t4": 4,
+        "t2": 16,
+        "t3": 3
+      },
+      "category": "ready_real",
+      "sequence_sha256": "2bdb769e3b237a699fd598ae78ec472d02566f64e52caf3f0c84a0f9684accd8",
+      "sources": [
+        {
+          "url": "https://revlib.org/doc/real/ham7_104.real",
+          "sha256": "e7892250041d3452fdea75a413587c8acddb8313e55f2a5f4a425b893bf200f2",
+          "metadata": {
+            ".version": "1.0",
+            ".numvars": "7",
+            ".variables": "a b c d e f g",
+            ".inputs": "a b c d e f g",
+            ".outputs": "a b c d e f g",
+            ".constants": "-------",
+            ".garbage": "-------"
+          },
+          "git_blob_sha1": null,
+          "category": "ready_real",
+          "source_filename": "ham7_104.real",
+          "file": "data/public_4to7/n7/ham7_104.real"
+        },
+        {
+          "url": "https://reversiblebenchmarks.github.io/ham7tc.tfc",
+          "sha256": "c0c727dc022b6da5f494ae9ec52d7b759c98a0e487dddf761b1145f86c6324dc",
+          "metadata": {
+            ".v": "a,b,c,d,e,f,g",
+            ".i": "a,b,c,d,e,f,g",
+            ".o": "a,b,c,d,e,f,g"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "ham7tc.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": false,
+      "benchmark_file": "data/public_4to7/n7/ham7_104.real",
+      "benchmark_sha256": "e7892250041d3452fdea75a413587c8acddb8313e55f2a5f4a425b893bf200f2"
+    },
+    {
+      "id": "ham7_106",
+      "name": "ham7_106.real",
+      "family": "ham7_106.real",
+      "wires": 7,
+      "gates": 25,
+      "gate_types": {
+        "t2": 19,
+        "t3": 6
+      },
+      "category": "ready_real",
+      "sequence_sha256": "e62af1f47df588a10eeebe94f984e545bc8133634fecf79f4aac6777d21bbf4c",
+      "sources": [
+        {
+          "url": "https://revlib.org/doc/real/ham7_106.real",
+          "sha256": "236d5a65efceca8542cbfffdaba4f5eb950aed591f655a24c10665059eec9f3f",
+          "metadata": {
+            ".version": "1.0",
+            ".numvars": "7",
+            ".variables": "a b c d e f g",
+            ".inputs": "a b c d e f g",
+            ".outputs": "a b c d e f g",
+            ".constants": "-------",
+            ".garbage": "-------"
+          },
+          "git_blob_sha1": null,
+          "category": "ready_real",
+          "source_filename": "ham7_106.real",
+          "file": "data/public_4to7/n7/ham7_106.real"
+        },
+        {
+          "url": "https://reversiblebenchmarks.github.io/ham7-25-49.tfc",
+          "sha256": "1d25f78e491587559a2aeacdb579e35a8d437a9e6c04350fb92eb69d9e8264a0",
+          "metadata": {
+            ".v": "a,b,c,d,e,f,g",
+            ".i": "a,b,c,d,e,f,g",
+            ".o": "a,b,c,d,e,f,g"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "ham7-25-49.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": false,
+      "benchmark_file": "data/public_4to7/n7/ham7_106.real",
+      "benchmark_sha256": "236d5a65efceca8542cbfffdaba4f5eb950aed591f655a24c10665059eec9f3f"
+    },
+    {
+      "id": "hwb7_61",
+      "name": "hwb7_61.real",
+      "family": "HWB",
+      "wires": 7,
+      "gates": 236,
+      "gate_types": {
+        "t2": 22,
+        "t3": 63,
+        "t4": 81,
+        "t5": 50,
+        "t6": 18,
+        "t7": 2
+      },
+      "category": "ready_real",
+      "sequence_sha256": "a287985df6f2d37289695bfe67a44402617182daac8002c17699551aee1a3caa",
+      "sources": [
+        {
+          "url": "https://revlib.org/doc/real/hwb7_61.real",
+          "sha256": "5a46ecf352b7f1d94de6ea67c47368d8798c6549bf6f862f8a20d8b8568cf903",
+          "metadata": {
+            ".version": "1.0",
+            ".numvars": "7",
+            ".variables": "a b c d e f g",
+            ".inputs": "a b c d e f g",
+            ".outputs": "a b c d e f g",
+            ".constants": "-------",
+            ".garbage": "-------"
+          },
+          "git_blob_sha1": null,
+          "category": "ready_real",
+          "source_filename": "hwb7_61.real",
+          "file": "data/public_4to7/n7/hwb7_61.real"
+        },
+        {
+          "url": "https://reversiblebenchmarks.github.io/hwb7-236.tfc",
+          "sha256": "8ecd24909968a63d3c20032855a78c140c26b454fd067ff3525ef579e4691f11",
+          "metadata": {
+            ".v": "a,b,c,d,e,f,g",
+            ".i": "a,b,c,d,e,f,g",
+            ".o": "a,b,c,d,e,f,g"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "hwb7-236.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": false,
+      "benchmark_file": "data/public_4to7/n7/hwb7_61.real",
+      "benchmark_sha256": "5a46ecf352b7f1d94de6ea67c47368d8798c6549bf6f862f8a20d8b8568cf903"
+    },
+    {
+      "id": "hwb7_59",
+      "name": "hwb7_59.real",
+      "family": "HWB",
+      "wires": 7,
+      "gates": 289,
+      "gate_types": {
+        "t3": 78,
+        "t4": 91,
+        "t5": 63,
+        "t2": 27,
+        "t6": 24,
+        "t7": 6
+      },
+      "category": "ready_real",
+      "sequence_sha256": "1e9caafeee2d0c7d903e3be3509a4611f98ce86df682b827049e685bf42b1780",
+      "sources": [
+        {
+          "url": "https://revlib.org/doc/real/hwb7_59.real",
+          "sha256": "57e30e4e8a5007d89e6820d0b0b813b7aba37f960f76830051cf4b708702d911",
+          "metadata": {
+            ".version": "1.0",
+            ".numvars": "7",
+            ".variables": "a b c d e f g",
+            ".inputs": "a b c d e f g",
+            ".outputs": "a b c d e f g",
+            ".constants": "-------",
+            ".garbage": "-------"
+          },
+          "git_blob_sha1": null,
+          "category": "ready_real",
+          "source_filename": "hwb7_59.real",
+          "file": "data/public_4to7/n7/hwb7_59.real"
+        },
+        {
+          "url": "https://reversiblebenchmarks.github.io/hwb7tc.tfc",
+          "sha256": "662c0fb2a72e85c8078daa8b7daa68f383d7c0fa531aa598f699785a7cf0b0fa",
+          "metadata": {
+            ".v": "a,b,c,d,e,f,g",
+            ".i": "a,b,c,d,e,f,g",
+            ".o": "a,b,c,d,e,f,g"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "hwb7tc.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": false,
+      "benchmark_file": "data/public_4to7/n7/hwb7_59.real",
+      "benchmark_sha256": "57e30e4e8a5007d89e6820d0b0b813b7aba37f960f76830051cf4b708702d911"
+    },
+    {
+      "id": "hwb7_62",
+      "name": "hwb7_62.real",
+      "family": "HWB",
+      "wires": 7,
+      "gates": 331,
+      "gate_types": {
+        "t2": 220,
+        "t3": 27,
+        "t5": 34,
+        "t4": 30,
+        "t6": 14,
+        "t1": 4,
+        "t7": 2
+      },
+      "category": "ready_real",
+      "sequence_sha256": "251d85690e07cd846428b003332dca66152a83de80c855e28051366714d0c770",
+      "sources": [
+        {
+          "url": "https://revlib.org/doc/real/hwb7_62.real",
+          "sha256": "35a8e1288a340fa41b971f1b6784060b44b207cc9b85a12ff1a0f1882cfcb712",
+          "metadata": {
+            ".version": "1.0",
+            ".numvars": "7",
+            ".variables": "a b c d e f g",
+            ".inputs": "a b c d e f g",
+            ".outputs": "a b c d e f g",
+            ".constants": "-------",
+            ".garbage": "-------"
+          },
+          "git_blob_sha1": null,
+          "category": "ready_real",
+          "source_filename": "hwb7_62.real",
+          "file": "data/public_4to7/n7/hwb7_62.real"
+        },
+        {
+          "url": "https://reversiblebenchmarks.github.io/hwb7-331-2609a.tfc",
+          "sha256": "41e19c2fa0bbbc18fdf3b8227af41846d7d95b3b66e3465396f618b727130bb7",
+          "metadata": {
+            ".v": "a,b,c,d,e,f,g",
+            ".i": "a,b,c,d,e,f,g",
+            ".o": "a,b,c,d,e,f,g"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "hwb7-331-2609a.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": false,
+      "benchmark_file": "data/public_4to7/n7/hwb7_62.real",
+      "benchmark_sha256": "35a8e1288a340fa41b971f1b6784060b44b207cc9b85a12ff1a0f1882cfcb712"
+    },
+    {
+      "id": "nth_prime07_inc-n7-gc440-qc10989",
+      "name": "nth_prime07_inc-n7-gc440-qc10989.tfc",
+      "family": "nth_prime_inc",
+      "wires": 7,
+      "gates": 440,
+      "gate_types": {
+        "t1": 39,
+        "t3": 9,
+        "t4": 13,
+        "t5": 11,
+        "t6": 10,
+        "t2": 282,
+        "t7": 76
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "0aba67fa4e05eac2376d5338f4369972d63434e21227202b41881ab51c637a83",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/nth_prime07_inc-n7-gc440-qc10989.tfc",
+          "sha256": "59b1ce4f7be2767b6ae6accac1c5ce82e23897d46b6f73db8c2b9fa829709462",
+          "metadata": {
+            ".v": "a1,a2,a3,a4,a5,a6,a7",
+            ".i": "a1,a2,a3,a4,a5,a6,a7",
+            ".o": "a1,a2,a3,a4,a5,a6,a7",
+            ".ol": "b1,b2,b3,b4,b5,b6,b7"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "nth_prime07_inc-n7-gc440-qc10989.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": true,
+      "redistribution_restriction": false,
+      "benchmark_file": "data/public_4to7/n7/nth_prime07_inc-n7-gc440-qc10989.real",
+      "converted_sha256": "677a86cd03c1806b43b56fc0d071f27ba3458547cc9b5d0f93b81f6ff5d79cc3",
+      "benchmark_sha256": "677a86cd03c1806b43b56fc0d071f27ba3458547cc9b5d0f93b81f6ff5d79cc3"
+    },
+    {
+      "id": "nth_prime07_inc-n7-gc489-qc10898",
+      "name": "nth_prime07_inc-n7-gc489-qc10898.tfc",
+      "family": "nth_prime_inc",
+      "wires": 7,
+      "gates": 489,
+      "gate_types": {
+        "t3": 9,
+        "t4": 13,
+        "t5": 11,
+        "t6": 10,
+        "t2": 282,
+        "t7": 76,
+        "t1": 88
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "db82bad17e4140089a1951c0c469590fa845422a34b39e564532b300c0070f6c",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/nth_prime07_inc-n7-gc489-qc10898.tfc",
+          "sha256": "234d55c4a17fd1abf97ee5fb7a1e0640c2100d3843c74c57bb5d614018ccac81",
+          "metadata": {
+            ".v": "a1,a2,a3,a4,a5,a6,a7",
+            ".i": "a1,a2,a3,a4,a5,a6,a7",
+            ".o": "a1,a2,a3,a4,a5,a6,a7",
+            ".ol": "b1,b2,b3,b4,b5,b6,b7"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "nth_prime07_inc-n7-gc489-qc10898.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": true,
+      "redistribution_restriction": false,
+      "benchmark_file": "data/public_4to7/n7/nth_prime07_inc-n7-gc489-qc10898.real",
+      "converted_sha256": "64b7e1f916e2da5a2996c65c1da19d3b9e50e599cb401c8cc372f122a28ea0d7",
+      "benchmark_sha256": "64b7e1f916e2da5a2996c65c1da19d3b9e50e599cb401c8cc372f122a28ea0d7"
+    },
+    {
+      "id": "hwb07-n7-gc612-qc1737",
+      "name": "hwb07-n7-gc612-qc1737.tfc",
+      "family": "HWB",
+      "wires": 7,
+      "gates": 612,
+      "gate_types": {
+        "t2": 457,
+        "t1": 34,
+        "t3": 80,
+        "t5": 23,
+        "t4": 18
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "d3e01d7d2f9a250300117cafa52fc0daf9816b5f63533986ec5cb851eca2d911",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/hwb07-n7-gc612-qc1737.tfc",
+          "sha256": "e27ea21d04c3005fd2ea8f1b81977cc5da5543f648836303d6e7866892a9068e",
+          "metadata": {
+            ".v": "a1,a2,a3,a4,a5,a6,a7",
+            ".i": "a1,a2,a3,a4,a5,a6,a7",
+            ".o": "a1,a2,a3,a4,a5,a6,a7",
+            ".ol": "b1,b2,b3,b4,b5,b6,b7"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "hwb07-n7-gc612-qc1737.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": true,
+      "redistribution_restriction": false,
+      "benchmark_file": "data/public_4to7/n7/hwb07-n7-gc612-qc1737.real",
+      "converted_sha256": "0160c935eb99e1c2dbdb8fa8f53f950dc4e6847736dd4c1b96b32ffe05b7646e",
+      "benchmark_sha256": "0160c935eb99e1c2dbdb8fa8f53f950dc4e6847736dd4c1b96b32ffe05b7646e"
+    },
+    {
+      "id": "nth_prime07_inc-n7-gc839-qc2284",
+      "name": "nth_prime07_inc-n7-gc839-qc2284.tfc",
+      "family": "nth_prime_inc",
+      "wires": 7,
+      "gates": 839,
+      "gate_types": {
+        "t2": 649,
+        "t1": 28,
+        "t4": 55,
+        "t3": 92,
+        "t5": 14,
+        "t6": 1
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "e56ad6eea5eae8a9b574bab1ff137906c3c98986044fbdd7fedbd2807794af8a",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/nth_prime07_inc-n7-gc839-qc2284.tfc",
+          "sha256": "2edf796e15e82f85707b9b6fb14d15363aa9decb1335e51eeea5120e6bc7969a",
+          "metadata": {
+            ".v": "a1,a2,a3,a4,a5,a6,a7",
+            ".i": "a1,a2,a3,a4,a5,a6,a7",
+            ".o": "a1,a2,a3,a4,a5,a6,a7",
+            ".ol": "b1,b2,b3,b4,b5,b6,b7"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "nth_prime07_inc-n7-gc839-qc2284.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": true,
+      "redistribution_restriction": false,
+      "benchmark_file": "data/public_4to7/n7/nth_prime07_inc-n7-gc839-qc2284.real",
+      "converted_sha256": "4a0e626d469c4e22b3680cc64d101d472729b989137ac3d4bf40762eb3f30c87",
+      "benchmark_sha256": "4a0e626d469c4e22b3680cc64d101d472729b989137ac3d4bf40762eb3f30c87"
+    },
+    {
+      "id": "nth_prime7_inc_1427_3172",
+      "name": "nth_prime7_inc_1427_3172.tfc",
+      "family": "nth_prime_inc",
+      "wires": 7,
+      "gates": 1427,
+      "gate_types": {
+        "t2": 1031,
+        "t3": 317,
+        "t4": 30,
+        "t1": 46,
+        "t6": 3
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "3194c6044607e47232b647ee30bf16493385a6af24f32f68c13d115d7fc280c8",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/nth_prime7_inc_1427_3172.tfc",
+          "sha256": "617d9bd894458524be4ecd45acb8422641dbc242daa0254100dfc49bf39042bf",
+          "metadata": {
+            ".v": "a,b,c,d,e,f,g",
+            ".i": "a,b,c,d,e,f,g",
+            ".o": "a,b,c,d,e,f,g"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "nth_prime7_inc_1427_3172.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": true,
+      "benchmark_file": "data/public_4to7/n7/nth_prime7_inc_1427_3172.real",
+      "converted_sha256": "55cdcfd62bdd3f41e20bf5cbd4d78f310dcbde2ab051dc44a43fa8eb83ce01c8",
+      "benchmark_sha256": "55cdcfd62bdd3f41e20bf5cbd4d78f310dcbde2ab051dc44a43fa8eb83ce01c8"
+    }
+  ],
+  "selection": {
+    "wires": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "minimum_gates": 10,
+    "requires_readable_benchmark_file": true,
+    "local_circuit_files": "Only the 63 retained REAL inputs; unsupported originals and duplicate datasets removed."
+  }
+}

@@ -1,0 +1,402 @@
+{
+  "date": "2026-10-25",
+  "selection": "Purposeful small set, not random or statistically representative. n6 selected conditional on prior successful completion by both methods.",
+  "minimum_gates": {
+    "n3": "exception: 4 to 6 gates",
+    "n4_to_n6": 10
+  },
+  "circuits": [
+    {
+      "id": "ex-1_166",
+      "name": "ex-1_166.real",
+      "family": "ex-1",
+      "wires": 3,
+      "gates": 4,
+      "gate_types": {
+        "t2": 2,
+        "t3": 1,
+        "t1": 1
+      },
+      "category": "ready_real",
+      "sequence_sha256": "11e94fc1a26ec5642bb956f7de901386f4d2807767a6121b924dca17274713a6",
+      "sources": [
+        {
+          "url": "https://revlib.org/doc/real/ex-1_166.real",
+          "sha256": "7765d3440386a31ca30610c0776bfda07dfd5cbbefa1c51125e727b87d308464",
+          "metadata": {
+            ".version": "1.0",
+            ".numvars": "3",
+            ".variables": "a b c",
+            ".inputs": "a b c",
+            ".outputs": "a b c"
+          },
+          "source_filename": "ex-1_166.real",
+          "retrieved_date": "2026-10-25",
+          "file": "data/public_3to6/n3/ex-1_166.real"
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": false,
+      "benchmark_sha256": "7765d3440386a31ca30610c0776bfda07dfd5cbbefa1c51125e727b87d308464",
+      "selection_reason": "公开 3 线路综合基准，4 门。",
+      "benchmark_file": "data/public_3to6/n3/ex-1_166.real"
+    },
+    {
+      "id": "ham3_102",
+      "name": "ham3_102.real",
+      "family": "ham3",
+      "wires": 3,
+      "gates": 5,
+      "gate_types": {
+        "t3": 1,
+        "t2": 4
+      },
+      "category": "ready_real",
+      "sequence_sha256": "89ecfbf647750e845c52f0de0a25408ef73a11cd960ff7c5dd2d7abff317babe",
+      "sources": [
+        {
+          "url": "https://revlib.org/doc/real/ham3_102.real",
+          "sha256": "1bcbc5e587496d2c5b3f4f8571e094ccbf98eedc2665a60109b6b0dfeae6e65e",
+          "metadata": {
+            ".version": "1.0",
+            ".numvars": "3",
+            ".variables": "a b c",
+            ".inputs": "a b c",
+            ".outputs": "a b c",
+            ".constants": "---",
+            ".garbage": "---"
+          },
+          "source_filename": "ham3_102.real",
+          "retrieved_date": "2026-10-25",
+          "file": "data/public_3to6/n3/ham3_102.real"
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": false,
+      "benchmark_sha256": "1bcbc5e587496d2c5b3f4f8571e094ccbf98eedc2665a60109b6b0dfeae6e65e",
+      "selection_reason": "ham3 的纯 MCT 实现，5 门。",
+      "benchmark_file": "data/public_3to6/n3/ham3_102.real"
+    },
+    {
+      "id": "miller_11",
+      "name": "miller_11.real",
+      "family": "miller",
+      "wires": 3,
+      "gates": 5,
+      "gate_types": {
+        "t2": 2,
+        "t3": 3
+      },
+      "category": "ready_real",
+      "sequence_sha256": "0ff27b7943c6fa844e267eff87b9c46820cc5e2a233da315ec81ed520f54cd8e",
+      "sources": [
+        {
+          "url": "https://revlib.org/doc/real/miller_11.real",
+          "sha256": "93546f69c593efdbfef642f1092093a5dffd2e2771a7dd91cd27ba166c9f5ba6",
+          "metadata": {
+            ".version": "1.0",
+            ".numvars": "3",
+            ".variables": "a b c",
+            ".inputs": "a b c",
+            ".outputs": "a b c",
+            ".constants": "---",
+            ".garbage": "---"
+          },
+          "source_filename": "miller_11.real",
+          "retrieved_date": "2026-10-25",
+          "file": "data/public_3to6/n3/miller_11.real"
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": false,
+      "benchmark_sha256": "93546f69c593efdbfef642f1092093a5dffd2e2771a7dd91cd27ba166c9f5ba6",
+      "selection_reason": "Miller 基准，5 门。",
+      "benchmark_file": "data/public_3to6/n3/miller_11.real"
+    },
+    {
+      "id": "3_17_13",
+      "name": "3_17_13.real",
+      "family": "3",
+      "wires": 3,
+      "gates": 6,
+      "gate_types": {
+        "t1": 1,
+        "t2": 3,
+        "t3": 2
+      },
+      "category": "ready_real",
+      "sequence_sha256": "641607e2b8ce7383b1823d97b801fda48dcde38106fd6d39a7740ab38c100c1f",
+      "sources": [
+        {
+          "url": "https://revlib.org/doc/real/3_17_13.real",
+          "sha256": "ec56a7043492163f032afe139cf1d88871b00a29669b1684e9e375c99c017308",
+          "metadata": {
+            ".version": "1.0",
+            ".numvars": "3",
+            ".variables": "a b c",
+            ".inputs": "a b c",
+            ".outputs": "a b c",
+            ".constants": "---",
+            ".garbage": "---"
+          },
+          "source_filename": "3_17_13.real",
+          "retrieved_date": "2026-10-25",
+          "file": "data/public_3to6/n3/3_17_13.real"
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": false,
+      "benchmark_sha256": "ec56a7043492163f032afe139cf1d88871b00a29669b1684e9e375c99c017308",
+      "selection_reason": "3_17 综合基准，6 门。",
+      "benchmark_file": "data/public_3to6/n3/3_17_13.real"
+    },
+    {
+      "id": "mod10_171",
+      "name": "mod10_171.real",
+      "family": "mod10_171.real",
+      "wires": 4,
+      "gates": 10,
+      "gate_types": {
+        "t2": 3,
+        "t4": 3,
+        "t3": 3,
+        "t1": 1
+      },
+      "category": "ready_real",
+      "sequence_sha256": "528262ab318cf57ca039e44344c377f5ef2efeea228f01613037439557c1f7d2",
+      "sources": [
+        {
+          "url": "https://revlib.org/doc/real/mod10_171.real",
+          "sha256": "58e5243002f64d1edea8c4747e4c33aa2a729aa5b42e1390b4fbe5269fc190b3",
+          "metadata": {
+            ".version": "1.0",
+            ".numvars": "4",
+            ".variables": "D C B A",
+            ".inputs": "D C B A",
+            ".outputs": "D C B A",
+            ".constants": "----",
+            ".garbage": "----"
+          },
+          "git_blob_sha1": null,
+          "category": "ready_real",
+          "source_filename": "mod10_171.real",
+          "file": "data/public_3to6/n4/mod10_171.real"
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": false,
+      "benchmark_file": "data/public_3to6/n4/mod10_171.real",
+      "benchmark_sha256": "58e5243002f64d1edea8c4747e4c33aa2a729aa5b42e1390b4fbe5269fc190b3",
+      "selection_reason": "模十功能，4 线路较短实现。"
+    },
+    {
+      "id": "hwb4_49",
+      "name": "hwb4_49.real",
+      "family": "HWB",
+      "wires": 4,
+      "gates": 17,
+      "gate_types": {
+        "t2": 9,
+        "t3": 6,
+        "t4": 2
+      },
+      "category": "ready_real",
+      "sequence_sha256": "09625fa5c4c9f0e9d6aa2f101f9287ee8644a39090107b57d5339d56003873ba",
+      "sources": [
+        {
+          "url": "https://revlib.org/doc/real/hwb4_49.real",
+          "sha256": "9fef5741c5d6279b96e8fcc28aa98fcb77e2e26c30397bbaa3e8ac8ba7409c67",
+          "metadata": {
+            ".version": "1.0",
+            ".numvars": "4",
+            ".variables": "a b c d",
+            ".inputs": "a b c d",
+            ".outputs": "a b c d",
+            ".constants": "----",
+            ".garbage": "----"
+          },
+          "git_blob_sha1": null,
+          "category": "ready_real",
+          "source_filename": "hwb4_49.real",
+          "file": "data/public_3to6/n4/hwb4_49.real"
+        },
+        {
+          "url": "https://reversiblebenchmarks.github.io/hwb4tc.tfc",
+          "sha256": "3aad06ce6c1fe1192adfbaf8bbe2e2f7160d9f6ddbddccce420940d5c8fbada1",
+          "metadata": {
+            ".v": "a,b,c,d",
+            ".i": "a,b,c,d",
+            ".o": "a,b,c,d"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "hwb4tc.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": false,
+      "benchmark_file": "data/public_3to6/n4/hwb4_49.real",
+      "benchmark_sha256": "9fef5741c5d6279b96e8fcc28aa98fcb77e2e26c30397bbaa3e8ac8ba7409c67",
+      "selection_reason": "HWB 功能，4 线路原池中门数最多的实现。"
+    },
+    {
+      "id": "nth_prime5_inc_25_103",
+      "name": "nth_prime5_inc_25_103.tfc",
+      "family": "nth_prime_inc",
+      "wires": 5,
+      "gates": 25,
+      "gate_types": {
+        "t2": 10,
+        "t3": 9,
+        "t1": 2,
+        "t4": 4
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "08dc6ffa8cf3beb2223f427adf54d17a11dc844c87ba705480cf79adae210769",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/nth_prime5_inc_25_103.tfc",
+          "sha256": "2eacd4839edefe41b966407e311daead9ed262cdc76f0ea4c2ce7e3c866b13dd",
+          "metadata": {
+            ".v": "a,b,c,d,e",
+            ".i": "a,b,c,d,e",
+            ".o": "a,b,c,d,e"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "nth_prime5_inc_25_103.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": true,
+      "benchmark_file": "data/public_3to6/n5/nth_prime5_inc_25_103.real",
+      "converted_sha256": "1f14438e9224f410b8838439ecd13eb4b36a2054008bf83d9fab757a4b32bdd3",
+      "benchmark_sha256": "1f14438e9224f410b8838439ecd13eb4b36a2054008bf83d9fab757a4b32bdd3",
+      "selection_reason": "nth-prime 功能，5 线路中等门数实现。"
+    },
+    {
+      "id": "hwb5_53",
+      "name": "hwb5_53.real",
+      "family": "HWB",
+      "wires": 5,
+      "gates": 55,
+      "gate_types": {
+        "t2": 24,
+        "t3": 18,
+        "t4": 11,
+        "t5": 2
+      },
+      "category": "ready_real",
+      "sequence_sha256": "d96b0fc6211bc60b9580b636fcf06ce855d0f1d6196b8d35750a28ad7a024036",
+      "sources": [
+        {
+          "url": "https://revlib.org/doc/real/hwb5_53.real",
+          "sha256": "540d3dc12eb3ac7b09865622d13dbca84bdc2e32b318f8e6ff3a184bc9dcd05e",
+          "metadata": {
+            ".version": "1.0",
+            ".numvars": "5",
+            ".variables": "a b c d e",
+            ".inputs": "a b c d e",
+            ".outputs": "a b c d e",
+            ".constants": "-----",
+            ".garbage": "-----"
+          },
+          "git_blob_sha1": null,
+          "category": "ready_real",
+          "source_filename": "hwb5_53.real",
+          "file": "data/public_3to6/n5/hwb5_53.real"
+        },
+        {
+          "url": "https://reversiblebenchmarks.github.io/hwb5tc.tfc",
+          "sha256": "99b90a7ffd30181ab1d40ced85335f1e23f6adc7031eebcad2f7456454e4fe02",
+          "metadata": {
+            ".v": "a,b,c,d,e",
+            ".i": "a,b,c,d,e",
+            ".o": "a,b,c,d,e"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "hwb5tc.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": false,
+      "benchmark_file": "data/public_3to6/n5/hwb5_53.real",
+      "benchmark_sha256": "540d3dc12eb3ac7b09865622d13dbca84bdc2e32b318f8e6ff3a184bc9dcd05e",
+      "selection_reason": "HWB 功能，5 线路原池中门数最多的实现。"
+    },
+    {
+      "id": "mod5adder-15",
+      "name": "mod5adder-15.tfc",
+      "family": "mod5adder-15.tfc",
+      "wires": 6,
+      "gates": 15,
+      "gate_types": {
+        "t1": 6,
+        "t3": 5,
+        "t4": 4
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "6ef2485897a8f257ecdaf9a0cbcf1731a8a7fdfca8436634e0e05c80a6039037",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/mod5adder-15.tfc",
+          "sha256": "6bf0fb26fd8a74c0ba4074b3cd34283722f67257c67a39f8327a1852b13bb3fd",
+          "metadata": {
+            ".v": "a,b,c,d,e,f",
+            ".i": "a,b,c,d,e,f",
+            ".o": "a,b,c,d,e,f"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "mod5adder-15.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": false,
+      "benchmark_file": "data/public_3to6/n6/mod5adder-15.real",
+      "converted_sha256": "bfd642a62d7599b3d57b9446c2cfdf9c7d524d6d12e38050e4da9478381e0d16",
+      "benchmark_sha256": "bfd642a62d7599b3d57b9446c2cfdf9c7d524d6d12e38050e4da9478381e0d16",
+      "selection_reason": "用户选择优先完整结果；可完成 mod5adder 实现中的较短电路。"
+    },
+    {
+      "id": "mod5adder-17-81",
+      "name": "mod5adder-17-81.tfc",
+      "family": "mod5adder-17-81.tfc",
+      "wires": 6,
+      "gates": 17,
+      "gate_types": {
+        "t1": 6,
+        "t3": 9,
+        "t4": 2
+      },
+      "category": "tfc_convertible",
+      "sequence_sha256": "3ee570ebb7aac18c0f55ce795922b280098804dccdfe69da0ec03e4fa94edd64",
+      "sources": [
+        {
+          "url": "https://reversiblebenchmarks.github.io/mod5adder-17-81.tfc",
+          "sha256": "f28035ba1b897c42c70247611b17400df5b45eb4131e462e09a5f7aefef66f15",
+          "metadata": {
+            ".v": "a,b,c,d,e,f",
+            ".i": "a,b,c,d,e,f",
+            ".o": "a,b,c,d,e,f"
+          },
+          "git_blob_sha1": null,
+          "category": "tfc_convertible",
+          "source_filename": "mod5adder-17-81.tfc",
+          "local_source_retained": false
+        }
+      ],
+      "negative_controls": false,
+      "redistribution_restriction": false,
+      "benchmark_file": "data/public_3to6/n6/mod5adder-17-81.real",
+      "converted_sha256": "6ae46a0ab64c74e721005664e0d34711a219a9b2864a4d885b3517bba115e859",
+      "benchmark_sha256": "6ae46a0ab64c74e721005664e0d34711a219a9b2864a4d885b3517bba115e859",
+      "selection_reason": "用户选择优先完整结果；较长 mod5adder 实现，控制/目标布局不同。"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+wires,gates,id,algorithm,input_a,input_b,repeat,status,equal,rule_count,time_ms,error
+4,10,aj-e11_168,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/aj-e11_168.real,,0,ok,,386245,6.861042,
+4,10,aj-e11_168,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/aj-e11_168.real,,0,ok,,940941,16.393208,
+4,10,mod10_171,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/mod10_171.real,,0,ok,,805594,16.096583,
+4,10,mod10_171,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/mod10_171.real,,0,ok,,305870,4.685541,
+4,11,hwb4-11-21,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/hwb4-11-21.real,,0,ok,,313853,3.924750,
+4,11,hwb4-11-21,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/hwb4-11-21.real,,0,ok,,1347611,22.051875,
+4,11,hwb4_52,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/hwb4_52.real,,0,ok,,316868,7.429166,
+4,11,hwb4_52,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/hwb4_52.real,,0,ok,,100652,2.838916,
+4,11,mspk_nth_primes4_11,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/mspk_nth_primes4_11.real,,0,ok,,36502,2.289000,
+4,11,mspk_nth_primes4_11,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/mspk_nth_primes4_11.real,,0,ok,,64925,2.446208,
+4,11,nth_prime4_inc_d2,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/nth_prime4_inc_d2.real,,0,ok,,65242,3.104291,
+4,11,nth_prime4_inc_d2,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/nth_prime4_inc_d2.real,,0,ok,,36317,1.953333,
+4,12,4_49_17,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/4_49_17.real,,0,ok,,192501,3.911834,
+4,12,4_49_17,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/4_49_17.real,,0,ok,,1225243,20.895709,
+4,12,mspk_4_49_12,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/mspk_4_49_12.real,,0,ok,,1219042,19.597792,
+4,12,mspk_4_49_12,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/mspk_4_49_12.real,,0,ok,,186836,3.535000,
+4,12,mspk_hwb4_12,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/mspk_hwb4_12.real,,0,ok,,104459,2.773375,
+4,12,mspk_hwb4_12,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/mspk_hwb4_12.real,,0,ok,,354235,9.813708,
+4,12,mspk_nth_primes4_12,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/mspk_nth_primes4_12.real,,0,ok,,404979,9.318583,
+4,12,mspk_nth_primes4_12,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/mspk_nth_primes4_12.real,,0,ok,,71076,2.454209,
+4,12,nth_prime4_inc_d1,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/nth_prime4_inc_d1.real,,0,ok,,43696,2.132708,
+4,12,nth_prime4_inc_d1,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/nth_prime4_inc_d1.real,,0,ok,,76423,2.811375,
+4,13,aj-e11_165,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/aj-e11_165.real,,0,ok,,1143909,20.960708,
+4,13,aj-e11_165,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/aj-e11_165.real,,0,ok,,418195,5.471792,
+4,13,mspk_4_49_13,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/mspk_4_49_13.real,,0,ok,,576414,6.921459,
+4,13,mspk_4_49_13,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/mspk_4_49_13.real,,0,ok,,2070582,31.187791,
+4,13,mspk_hwb4_13,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/mspk_hwb4_13.real,,0,ok,,1692389,20.010792,
+4,13,mspk_hwb4_13,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/mspk_hwb4_13.real,,0,ok,,391905,4.844292,
+4,13,mspk_nth_primes4_13,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/mspk_nth_primes4_13.real,,0,ok,,260483,4.049208,
+4,13,mspk_nth_primes4_13,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/mspk_nth_primes4_13.real,,0,ok,,989060,14.492625,
+4,14,mspk_4_49_14,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/mspk_4_49_14.real,,0,ok,,2183238,27.352500,
+4,14,mspk_4_49_14,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/mspk_4_49_14.real,,0,ok,,492807,6.113208,
+4,14,mspk_nth_primes4_14,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/mspk_nth_primes4_14.real,,0,ok,,153749,2.967167,
+4,14,mspk_nth_primes4_14,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/mspk_nth_primes4_14.real,,0,ok,,736516,10.950250,
+4,15,4b15g_1,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/4b15g_1.real,,0,ok,,1030401,13.727584,
+4,15,4b15g_1,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/4b15g_1.real,,0,ok,,300958,4.596625,
+4,15,4b15g_2,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/4b15g_2.real,,0,ok,,471505,6.698792,
+4,15,4b15g_2,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/4b15g_2.real,,0,ok,,2094852,23.168584,
+4,15,4b15g_3,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/4b15g_3.real,,0,ok,,402381,8.689375,
+4,15,4b15g_3,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/4b15g_3.real,,0,ok,,140646,3.009625,
+4,15,4b15g_4,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/4b15g_4.real,,0,ok,,474987,6.181125,
+4,15,4b15g_4,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/4b15g_4.real,,0,ok,,1347619,21.845666,
+4,15,4b15g_5,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/4b15g_5.real,,0,ok,,1297903,17.903875,
+4,15,4b15g_5,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/4b15g_5.real,,0,ok,,489917,6.231167,
+4,15,mspk_4b15g_1,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/mspk_4b15g_1.real,,0,ok,,264498,3.936625,
+4,15,mspk_4b15g_1,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/mspk_4b15g_1.real,,0,ok,,1141521,16.318500,
+4,15,mspk_4b15g_2,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/mspk_4b15g_2.real,,0,ok,,1281574,18.024708,
+4,15,mspk_4b15g_2,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/mspk_4b15g_2.real,,0,ok,,278863,4.241542,
+4,15,mspk_4b15g_3,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/mspk_4b15g_3.real,,0,ok,,493967,6.200625,
+4,15,mspk_4b15g_3,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/mspk_4b15g_3.real,,0,ok,,3241534,36.343958,
+4,15,mspk_4b15g_4,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/mspk_4b15g_4.real,,0,ok,,952225,14.300208,
+4,15,mspk_4b15g_4,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/mspk_4b15g_4.real,,0,ok,,289988,4.470167,
+4,15,mspk_4b15g_5,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/mspk_4b15g_5.real,,0,ok,,263038,5.513666,
+4,15,mspk_4b15g_5,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/mspk_4b15g_5.real,,0,ok,,703115,14.668208,
+4,15,nth_prime4_inc_15_51,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/nth_prime4_inc_15_51.real,,0,ok,,592811,16.059333,
+4,15,nth_prime4_inc_15_51,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/nth_prime4_inc_15_51.real,,0,ok,,163998,3.153042,
+4,16,4_49_16,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/4_49_16.real,,0,ok,,500881,5.527709,
+4,16,4_49_16,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/4_49_16.real,,0,ok,,1724611,26.109375,
+4,17,hwb4_49,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/hwb4_49.real,,0,ok,,682864,10.821583,
+4,17,hwb4_49,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n4/hwb4_49.real,,0,ok,,165080,3.349625,
+5,17,4gt4-v0_73,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n5/4gt4-v0_73.real,,0,ok,,7566610,29.638417,
+5,17,4gt4-v0_73,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n5/4gt4-v0_73.real,,0,ok,,280437670,1755.730542,
+5,24,hwb5-24-102,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n5/hwb5-24-102.real,,0,ok,,360746968,2421.253125,
+5,24,hwb5-24-102,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n5/hwb5-24-102.real,,0,ok,,17172250,56.207583,
+5,24,hwb5_55,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n5/hwb5_55.real,,0,ok,,18327334,64.122750,
+5,24,hwb5_55,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n5/hwb5_55.real,,0,ok,,355925715,2357.293167,
+5,25,nth_prime5_inc_25_103,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n5/nth_prime5_inc_25_103.real,,0,ok,,33254205,236.852584,
+5,25,nth_prime5_inc_25_103,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n5/nth_prime5_inc_25_103.real,,0,ok,,3607160,18.099958,
+5,28,nth_prime5_inc-28-96,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n5/nth_prime5_inc-28-96.real,,0,ok,,6651251,27.684417,
+5,28,nth_prime5_inc-28-96,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n5/nth_prime5_inc-28-96.real,,0,ok,,155598128,1002.377334,
+5,29,nth_prime5_inc_29_91,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n5/nth_prime5_inc_29_91.real,,0,ok,,215011995,1449.699875,
+5,29,nth_prime5_inc_29_91,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n5/nth_prime5_inc_29_91.real,,0,ok,,10450731,34.681500,
+5,31,hwb5_31_91,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n5/hwb5_31_91.real,,0,ok,,9882649,40.001000,
+5,31,hwb5_31_91,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n5/hwb5_31_91.real,,0,ok,,132018970,997.688042,
+5,33,hwb5-33-71,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n5/hwb5-33-71.real,,0,ok,,320161592,2087.113334,
+5,33,hwb5-33-71,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n5/hwb5-33-71.real,,0,ok,,20489779,71.455958,
+5,36,mspk_nth_prime5_inc_29_91_opt_36_80,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n5/mspk_nth_prime5_inc_29_91_opt_36_80.real,,0,ok,,10083972,37.163958,
+5,36,mspk_nth_prime5_inc_29_91_opt_36_80,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n5/mspk_nth_prime5_inc_29_91_opt_36_80.real,,0,ok,,179358003,1252.945916,
+5,38,mspk_hwb5_31_91_opt_38_80,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n5/mspk_hwb5_31_91_opt_38_80.real,,0,ok,,153874062,1243.099667,
+5,38,mspk_hwb5_31_91_opt_38_80,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n5/mspk_hwb5_31_91_opt_38_80.real,,0,ok,,13853999,53.904792,
+5,55,hwb5_53,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n5/hwb5_53.real,,0,ok,,9191528,29.713125,
+5,55,hwb5_53,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n5/hwb5_53.real,,0,ok,,129610460,914.107959,
+6,15,mod5adder-15,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n6/mod5adder-15.real,,0,ok,,39935706,244.467291,
+6,15,mod5adder-15,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n6/mod5adder-15.real,,0,ok,,5382719,23.924667,
+6,15,mod5adder_128,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n6/mod5adder_128.real,,0,ok,,698476112,1068.073625,
+6,15,mod5adder_128,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n6/mod5adder_128.real,,0,resource_limit,,,9242.087167,fxl2026 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n6/mod5adder_128.real: resource_limit: max_word
+6,17,mod5adder-17-69,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n6/mod5adder-17-69.real,,0,ok,,386720514,1456.940000,
+6,17,mod5adder-17-69,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n6/mod5adder-17-69.real,,0,ok,,15104719,42.929166,
+6,17,mod5adder-17-81,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n6/mod5adder-17-81.real,,0,ok,,22679167,61.104667,
+6,17,mod5adder-17-81,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n6/mod5adder-17-81.real,,0,ok,,2350912879,9681.329000,
+6,17,mod5adder_129,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n6/mod5adder_129.real,,0,resource_limit,,,9343.743958,fxl2026 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n6/mod5adder_129.real: resource_limit: max_word
+6,17,mod5adder_129,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n6/mod5adder_129.real,,0,ok,,690134816,1133.639459,
+6,21,mod5adder_127,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n6/mod5adder_127.real,,0,ok,,761472137,1212.316542,
+6,21,mod5adder_127,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n6/mod5adder_127.real,,0,resource_limit,,,10285.645792,fxl2026 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n6/mod5adder_127.real: resource_limit: max_word
+6,42,hwb6_58,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n6/hwb6_58.real,,0,resource_limit,,,11243.663708,fxl2026 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n6/hwb6_58.real: resource_limit: max_word
+6,42,hwb6_58,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n6/hwb6_58.real,,0,ok,,621745689,768.010291,
+6,47,hwb6_47_107,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n6/hwb6_47_107.real,,0,ok,,936999953,1254.389708,
+6,47,hwb6_47_107,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n6/hwb6_47_107.real,,0,resource_limit,,,9337.572334,fxl2026 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n6/hwb6_47_107.real: resource_limit: max_word
+6,55,nth_prime6_inc_55_667,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n6/nth_prime6_inc_55_667.real,,0,resource_limit,,,9284.318959,fxl2026 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n6/nth_prime6_inc_55_667.real: resource_limit: max_word
+6,55,nth_prime6_inc_55_667,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n6/nth_prime6_inc_55_667.real,,0,ok,,701794675,1013.274958,
+6,61,nth_prime6_inc-57-485,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n6/nth_prime6_inc-57-485.real,,0,ok,,934812403,1390.767333,
+6,61,nth_prime6_inc-57-485,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n6/nth_prime6_inc-57-485.real,,0,resource_limit,,,7658.921333,fxl2026 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n6/nth_prime6_inc-57-485.real: resource_limit: max_word
+6,126,hwb6_56,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n6/hwb6_56.real,,0,resource_limit,,,8777.291291,fxl2026 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n6/hwb6_56.real: resource_limit: max_word
+6,126,hwb6_56,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n6/hwb6_56.real,,0,ok,,630792350,834.006041,
+7,21,ham7_105,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/ham7_105.real,,0,ok,,6468283988,25659.441833,
+7,21,ham7_105,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/ham7_105.real,,0,resource_limit,,,23138.350708,fxl2026 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/ham7_105.real: resource_limit: contextual peak word
+7,23,ham7_104,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/ham7_104.real,,0,resource_limit,,,25626.330250,fxl2026 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/ham7_104.real: resource_limit: contextual peak word
+7,23,ham7_104,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/ham7_104.real,,0,resource_limit,,,97737.943542,fl2025 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/ham7_104.real: resource_limit: max_work
+7,25,ham7_106,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/ham7_106.real,,0,ok,,8208999336,44710.758417,
+7,25,ham7_106,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/ham7_106.real,,0,resource_limit,,,21753.673459,fxl2026 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/ham7_106.real: resource_limit: contextual peak word
+7,236,hwb7_61,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/hwb7_61.real,,0,resource_limit,,,63572.303250,fxl2026 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/hwb7_61.real: resource_limit: contextual peak word
+7,236,hwb7_61,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/hwb7_61.real,,0,resource_limit,,,38418.468750,fl2025 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/hwb7_61.real: resource_limit: max_work
+7,289,hwb7_59,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/hwb7_59.real,,0,resource_limit,,,53329.092834,fl2025 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/hwb7_59.real: resource_limit: max_work
+7,289,hwb7_59,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/hwb7_59.real,,0,resource_limit,,,39043.969875,fxl2026 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/hwb7_59.real: resource_limit: contextual peak word
+7,331,hwb7_62,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/hwb7_62.real,,0,resource_limit,,,61503.079250,fxl2026 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/hwb7_62.real: resource_limit: contextual peak word
+7,331,hwb7_62,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/hwb7_62.real,,0,resource_limit,,,43932.899292,fl2025 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/hwb7_62.real: resource_limit: max_work
+7,440,nth_prime07_inc-n7-gc440-qc10989,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/nth_prime07_inc-n7-gc440-qc10989.real,,0,resource_limit,,,64147.020375,fl2025 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/nth_prime07_inc-n7-gc440-qc10989.real: resource_limit: max_work
+7,440,nth_prime07_inc-n7-gc440-qc10989,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/nth_prime07_inc-n7-gc440-qc10989.real,,0,resource_limit,,,23363.054625,fxl2026 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/nth_prime07_inc-n7-gc440-qc10989.real: resource_limit: contextual peak word
+7,489,nth_prime07_inc-n7-gc489-qc10898,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/nth_prime07_inc-n7-gc489-qc10898.real,,0,resource_limit,,,18944.332583,fxl2026 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/nth_prime07_inc-n7-gc489-qc10898.real: resource_limit: contextual peak word
+7,489,nth_prime07_inc-n7-gc489-qc10898,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/nth_prime07_inc-n7-gc489-qc10898.real,,0,resource_limit,,,66543.932750,fl2025 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/nth_prime07_inc-n7-gc489-qc10898.real: resource_limit: max_work
+7,612,hwb07-n7-gc612-qc1737,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/hwb07-n7-gc612-qc1737.real,,0,resource_limit,,,83780.814834,fl2025 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/hwb07-n7-gc612-qc1737.real: resource_limit: max_work
+7,612,hwb07-n7-gc612-qc1737,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/hwb07-n7-gc612-qc1737.real,,0,resource_limit,,,22484.191625,fxl2026 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/hwb07-n7-gc612-qc1737.real: resource_limit: contextual peak word
+7,839,nth_prime07_inc-n7-gc839-qc2284,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/nth_prime07_inc-n7-gc839-qc2284.real,,0,resource_limit,,,63545.312333,fxl2026 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/nth_prime07_inc-n7-gc839-qc2284.real: resource_limit: contextual peak word
+7,839,nth_prime07_inc-n7-gc839-qc2284,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/nth_prime07_inc-n7-gc839-qc2284.real,,0,resource_limit,,,39733.576917,fl2025 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/nth_prime07_inc-n7-gc839-qc2284.real: resource_limit: max_work
+7,1427,nth_prime7_inc_1427_3172,fl2025,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/nth_prime7_inc_1427_3172.real,,0,resource_limit,,,69295.823833,fl2025 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/nth_prime7_inc_1427_3172.real: resource_limit: max_work
+7,1427,nth_prime7_inc_1427_3172,fxl2026,/Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/nth_prime7_inc_1427_3172.real,,0,resource_limit,,,39467.838958,fxl2026 /Users/zhangchenrui/Workspace/work/quantum/riversible-completeness/data/public_4to7/n7/nth_prime7_inc_1427_3172.real: resource_limit: contextual peak word
