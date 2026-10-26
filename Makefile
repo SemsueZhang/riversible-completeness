@@ -5,7 +5,7 @@ BUILD := build
 SOURCES := $(wildcard src/*.cpp)
 OBJECTS := $(patsubst src/%.cpp,$(BUILD)/%.o,$(SOURCES))
 PROGRAMS := bench_normalize bench_equivalence generate_data
-.PHONY: all clean verify
+.PHONY: all clean verify verify-wires
 all: $(addprefix $(BUILD)/,$(PROGRAMS))
 $(BUILD):
 	mkdir -p $(BUILD)
@@ -17,9 +17,14 @@ $(BUILD)/verify_binary: tests/verify_binary.cpp $(OBJECTS) | $(BUILD)
 	$(CXX) $(CPPFLAGS) $(CXXFLAGS) $< $(OBJECTS) -o $@
 $(BUILD)/verify_sparse_path: tests/verify_sparse_path.cpp $(OBJECTS) | $(BUILD)
 	$(CXX) $(CPPFLAGS) $(CXXFLAGS) $< $(OBJECTS) -o $@
-verify: $(BUILD)/verify_binary $(BUILD)/verify_sparse_path
+$(BUILD)/verify_wires: tests/verify_wires.cpp $(OBJECTS) | $(BUILD)
+	$(CXX) $(CPPFLAGS) $(CXXFLAGS) $< $(OBJECTS) -o $@
+verify-wires: $(BUILD)/verify_wires
+	$(BUILD)/verify_wires
+verify: $(BUILD)/verify_binary $(BUILD)/verify_sparse_path $(BUILD)/verify_wires
 	$(BUILD)/verify_binary --extended
 	$(BUILD)/verify_sparse_path
+	$(BUILD)/verify_wires
 clean:
 	rm -rf $(BUILD)
 -include $(OBJECTS:.o=.d)

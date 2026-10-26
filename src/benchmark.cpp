@@ -57,13 +57,14 @@ int benchmark_main(int argc, char **argv, bool eq) {
         Args args(argc, argv);
         args.allowed({"--help", "--algorithm", "--input", "--left", "--right", "--manifest",
                       "--output", "--repeat", "--seconds", "--max-states", "--max-word",
-                      "--max-work"});
+                      "--max-work", "--wire-order"});
         if (args.has("--help")) {
             std::cout << (eq ? "bench_equivalence --left A.cat --right B.cat"
                              : "bench_normalize --input A.cat")
                       << " --algorithm fl2025|fxl2026|nf|dc|all\n  or --manifest FILE.tsv\n  "
                          "[--output results.csv] [--repeat 1] [--seconds 60]\n  [--max-states "
-                         "65536] [--max-word 100000000] [--max-work 2000000]\n";
+                         "65536] [--max-word 100000000] [--max-work 2000000]\n"
+                         "  [--wire-order target-frequency|original] (default: target-frequency)\n";
             return 0;
         }
         Limits limits;
@@ -79,6 +80,10 @@ int benchmark_main(int argc, char **argv, bool eq) {
                 "limits must be positive");
         auto repeats = natural(args.get("--repeat", "1"));
         require(repeats > 0 && repeats <= 1000000, "repeat outside 1..1000000");
+        const auto wire_order = args.get("--wire-order", "target-frequency");
+        require(wire_order == "target-frequency" || wire_order == "original",
+                "wire-order must be target-frequency or original");
+        const bool reorder = wire_order == "target-frequency";
         std::vector<Method> methods;
         auto choice = args.get("--algorithm", "all");
         if (choice == "all")
@@ -96,7 +101,10 @@ int benchmark_main(int argc, char **argv, bool eq) {
             output = &file;
         }
         auto &out = *output;
-        out << "algorithm,input_a,input_b,repeat,status,equal,rule_count,time_ms\n";
+        out << "algorithm,input_a,input_b,repeat,status,equal,rule_count,time_ms";
+        if (reorder)
+            out << ",wire_order,wire_map";
+        out << '\n';
         int errors = 0;
         for (const auto &s : inputs) {
             Circuit a, b;
@@ -111,6 +119,7 @@ int benchmark_main(int argc, char **argv, bool eq) {
             for (auto method : methods)
                 for (std::uint64_t rep = 0; rep < repeats; ++rep) {
                     std::string status = "ok", equal_text, count, error;
+                    std::vector<int> wire_map;
                     double ms = 0;
                     if (!load_error.empty()) {
                         status = "input_error";
@@ -122,8 +131,18 @@ int benchmark_main(int argc, char **argv, bool eq) {
                         auto start = std::chrono::steady_clock::now();
                         try {
                             Budget budget(limits);
-                            auto result = eq ? equivalent(a, b, method, budget)
-                                             : normalize(a, method, budget);
+                            Result result;
+                            if (reorder) {
+                                wire_map = target_frequency_order(a, eq ? &b : nullptr, &budget);
+                                auto mapped_a = permute_wires(a, wire_map, &budget);
+                                if (eq) {
+                                    auto mapped_b = permute_wires(b, wire_map, &budget);
+                                    result = equivalent(mapped_a, mapped_b, method, budget);
+                                } else
+                                    result = normalize(mapped_a, method, budget);
+                            } else
+                                result = eq ? equivalent(a, b, method, budget)
+                                            : normalize(a, method, budget);
                             ms = std::chrono::duration<double, std::milli>(
                                      std::chrono::steady_clock::now() - start)
                                      .count();
@@ -148,7 +167,21 @@ int benchmark_main(int argc, char **argv, bool eq) {
                     }
                     out << method_name(method) << ',' << csv(s.a) << ',' << csv(s.b) << ',' << rep
                         << ',' << status << ',' << equal_text << ',' << count << ',' << std::fixed
-                        << std::setprecision(6) << ms << '\n';
+                        << std::setprecision(6) << ms;
+                    if (reorder) {
+                        std::string mapping;
+                        if (!wire_map.empty()) {
+                            mapping = "[";
+                            for (std::size_t k = 0; k < wire_map.size(); ++k) {
+                                if (k)
+                                    mapping += ',';
+                                mapping += std::to_string(wire_map[k]);
+                            }
+                            mapping += ']';
+                        }
+                        out << ',' << wire_order << ',' << csv(mapping);
+                    }
+                    out << '\n';
                     out.flush();
                     require(bool(out), "result write failed");
                     if (status != "ok" && status != "not_applicable") {

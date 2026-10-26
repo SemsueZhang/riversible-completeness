@@ -89,6 +89,13 @@ struct Circuit {
     Word gates;
     std::string metadata;
 };
+// Coordinate relabeling: old_to_new[k] is the new index of original wire k.
+// Minimize the sum of input-gate target indices; an optional second circuit
+// shares the same coordinate map, minimizing the combined sum.
+std::vector<int> target_frequency_order(const Circuit &a, const Circuit *b = nullptr,
+                                      Budget *budget = nullptr);
+Circuit permute_wires(const Circuit &c, const std::vector<int> &old_to_new,
+                      Budget *budget = nullptr);
 Circuit read_circuit(const std::string &path);
 void write_circuit(const std::string &path, const Circuit &c);
 } // namespace rv

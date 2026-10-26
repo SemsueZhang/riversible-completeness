@@ -3,7 +3,7 @@ project(reversible_completeness LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
-add_library(rv STATIC src/core.cpp src/io.cpp src/compiler.cpp src/routing.cpp
+add_library(rv STATIC src/core.cpp src/io.cpp src/wires.cpp src/compiler.cpp src/routing.cpp
     src/path.cpp src/indexed_path.cpp src/fl2025.cpp src/fxl2026.cpp src/nf.cpp src/dc.cpp
     src/experiments.cpp src/benchmark.cpp)
 target_include_directories(rv PUBLIC include)
@@ -16,7 +16,7 @@ foreach(app bench_normalize bench_equivalence generate_data)
   add_executable(${app} apps/${app}.cpp)
   target_link_libraries(${app} PRIVATE rv)
 endforeach()
-foreach(check verify_binary verify_sparse_path)
+foreach(check verify_binary verify_sparse_path verify_wires)
   add_executable(${check} EXCLUDE_FROM_ALL tests/${check}.cpp)
   target_link_libraries(${check} PRIVATE rv)
 endforeach()
