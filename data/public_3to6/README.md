@@ -26,3 +26,5 @@
 | 6 | [mod5adder-17-81](n6/mod5adder-17-81.real) | 17 | [原始文件](https://reversiblebenchmarks.github.io/mod5adder-17-81.tfc) | 较长的 mod5adder 实现，控制/目标布局不同。 |
 
 范式归约使用 [normalization.tsv](normalization.tsv)。当前没有判等对清单；不能仅凭功能名称推断两个文件相等。来源、转换信息和文件哈希统一记录于 [manifest.json](manifest.json)。
+
+FL2025 / FXL2026 的逐电路规则数、平均耗时及实验平台见[仓库 README](../../README.md#精选集实验结果与平台)。
